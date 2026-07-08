@@ -1,0 +1,50 @@
+# QUEUE — approved slate cuts to build
+
+`run next` pops the top **unchecked** row, builds it (per `../SLATE-RUNNER.md`),
+then checks it off and records the review-MP4 path. Full candidate cards live in
+the book's scout file — read the numbered card there for hook, exclusions, and
+manim move before building.
+
+Reels build into the book's own `youtube/<slug>/` (co-located with the book),
+not into this toolkit. Done-links below point at the current `unreal-reels/reels/`
+locations (pre-migration).
+
+## The Reallocation Engine
+Scout: `books/the-reallocation-engine/youtube/video-ideas.md` · build into `books/the-reallocation-engine/youtube/<slug>/`
+
+- [ ] 17 — Why an AI Can't Catch Its Own Mistakes (ch.97) · trace · 8/10
+- [ ] 18 — Why the Data Can't Tell You Which Way the Arrow Points (ch.97) · morph · 8/10
+- [ ] 08 — Why You Can't Tell a Finding From a Guess by Reading It (ch.14) · trace · 8/10
+- [ ] 10 — How a True Number Smuggles In a False Claim (ch.3) · morph · 8/10
+- [ ] 12 — Why the Best Job Leads Have No Job Posting Yet (ch.6) · trace · 8/10
+- [ ] 13 — Why "No Data" Is Not "No" (ch.7) · compare · 8/10
+- [ ] 14 — Why Real Numbers Can Describe the Wrong Job (ch.9) · compare · 8/10
+- [ ] 15 — Why the Rejection Email Never Tells You the Real Reason (ch.11) · trace · 8/10
+- [ ] 16 — Why Your Job-Search Machine Works Best When It Tells You No (ch.15) · scan · 8/10
+- [ ] 19 — Why an Offer Can Arrive Already Dead (ch.10) · accumulate · 7/10
+- [ ] 20 — Why the Verification Tool Almost Never Checks the Source (ch.3) · trace · 6/10
+
+### Done (Reallocation Engine)
+- [x] 01 — Fluency Trap → `reels/vox-fluency-trap/`
+- [x] 02 — Application Counter → `reels/vox-application-counter/`
+- [x] 03 — Ghost Jobs → `reels/vox-ghost-jobs/`
+- [x] 04 — Comma Orphan (zero missing, still missing) → `reels/vox-comma-orphan/`
+- [x] 05 — Base Rate (0.68 is really 0.40) → `reels/vox-base-rate/`
+- [x] 06 — Invisible Résumé → `reels/vox-invisible-resume/`
+- [x] 07 — One Zero Beats Four Nines → `reels/vox-one-zero/`
+- [x] 09 — The Struggle (AI help made students worse) → `reels/vox-the-struggle/`
+- [x] 11 — Bottom Rung (delete cheapest, destroy priciest) → `reels/vox-bottom-rung/`
+
+## Computational Skepticism for AI
+Scout: `books/computational-skepticism-for-ai/youtube/video-ideas.md` · build into `books/computational-skepticism-for-ai/youtube/<slug>/`
+
+### Done (already built — do NOT rebuild)
+- [x] 01 — 99%-Accurate Test → `reels/vox-99-percent-test/`
+- [x] 02 — More Data, More Confident (biased estimator) → `reels/vox-more-data-more-confident/`
+- [x] 08 — Same Net, Same Hole (two AIs checking each other) → `books/computational-skepticism-for-ai/youtube/vox-same-net-same-hole/vox-same-net-same-hole-review.mp4`
+- [x] (others already in `reels/`: vox-turkey-problem, vox-prosecutors-fallacy, vox-class-size-paradox, vox-inverted-axis, vox-rat-bounty, vox-silent-join, vox-fair-three-ways, vox-invisible-flip, vox-agent-said-done, vox-criminality-ai, vox-doorbell-battery, vox-rap-mortality-graph, vox-why-hot-ones-are-jerks — verify state before touching)
+
+---
+
+**To add a card to the queue:** paste its number (and book) here as an unchecked
+row, or just tell Claude Code `slate cut <paste the card>` to build one off-queue.

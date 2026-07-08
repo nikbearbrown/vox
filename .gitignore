@@ -1,0 +1,7 @@
+EPS/
+.env
+.DS_Store
+__pycache__/
+*.pyc
+media/videos/
+replace_log.md
