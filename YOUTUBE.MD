@@ -1,6 +1,6 @@
 # YOUTUBE.MD — vox video state across all books
 
-_Generated 2026-07-09 00:49 by `scripts/vox_audit.py` — deterministic, re-run anytime._
+_Generated 2026-07-08 21:04 by `scripts/vox_audit.py` — deterministic, re-run anytime._
 
 ## Summary
 

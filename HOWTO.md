@@ -12,6 +12,34 @@ up its problem and asks its question before answering it.
 
 ---
 
+## Layout — vox is the toolkit; your content sits beside it
+
+`vox/` is a self-contained **toolkit**, not a book. It builds videos from content that
+sits **next to it**, as a sibling folder. To make videos from a book — yours or anyone's
+— drop the content beside `vox/` and scout it:
+
+```
+books/
+├── vox/                     ← the toolkit (this repo)
+├── your-book/               ← any content, a sibling of vox
+│   ├── chapters/            ← markdown the scout reads (NN-*.md)
+│   └── youtube/             ← the scout + the builds write here
+│       ├── video-ideas.md   ← candidate cards
+│       └── <slug>/          ← each built reel
+└── another-book/            ← as many as you like
+```
+
+The scout reads `../<book>/chapters/`, writes candidate cards to
+`../<book>/youtube/video-ideas.md`, and each reel builds into
+`../<book>/youtube/<slug>/`. **Any content works** — the scout can make a video idea
+from any book placed as a sibling, not only the ones shipped here. The separation is
+deliberate: `vox/` is the reusable engine you clone and update; the books are *your*
+content kept beside it — which is why they are **not** part of the vox repo, and need
+their own backup. Launch Claude Code from the parent `books/` folder (next section) so
+it sees `vox/` and every sibling book at once.
+
+---
+
 ## One-time setup (do this once, on this Mac)
 
 1. **Register the fonts** so the renderer can see them (bundled-in-a-folder is not

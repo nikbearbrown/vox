@@ -1,0 +1,2560 @@
+{
+ "OutroCTA": [
+  {
+   "beat": "B14",
+   "video": "vox-ghost-signals"
+  },
+  {
+   "beat": "B17",
+   "video": "vox-apoptosis-resistance"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-bcl-selectivity"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-bypass-track"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-cancer-evolution"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-differentiation-therapy"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-fdg-hif1a"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-hpv-dual-hit"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-hpylori-cancer"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-idh-2hg"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-immune-starvation"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-mgmt-methylation"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-mir-deletion"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-mtap-passenger"
+  },
+  {
+   "beat": "B17",
+   "video": "vox-mutational-signature"
+  },
+  {
+   "beat": "B17",
+   "video": "vox-p53-circuit"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-protein-level-loss"
+  },
+  {
+   "beat": "B17",
+   "video": "vox-rb-convergence"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-restriction-point"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-spindle-checkpoint"
+  },
+  {
+   "beat": "B20",
+   "video": "vox-synthetic-lethality"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-telomere-crisis"
+  },
+  {
+   "beat": "B18",
+   "video": "vox-two-hit"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-venetoclax-priming"
+  },
+  {
+   "beat": "B17",
+   "video": "vox-vhl-hif"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-warburg-carbon"
+  },
+  {
+   "beat": "B17",
+   "video": "vox-abraxane-solvent"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-batch-distribution"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-bystander-effect"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-complexity-yield"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-dar-optimum"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-delivery-diagnosis"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-delivery-funnel"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-doxil-heart"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-emitter-range"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-endosomal-escape"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-epr-gap"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-fdg-proxy"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-isotope-swap"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-light-ceiling"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-protein-corona"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-size-paradox"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-targeting-uptake"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-trial-failure-tree"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-tumor-pressure"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-agent-deleted"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-bias-pipe"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-calibration-curve"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-calibration-useless"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-channel-reset"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-chart-lie"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-confidence-gauge"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-error-cascade"
+  },
+  {
+   "beat": "B18",
+   "video": "vox-heavy-tail-yank"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-injection-wall"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-missing-mnar"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-panda-proxy"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-prediction-lock"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-race-column"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-same-net-same-hole"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-shapley-room"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-subgroup-hidden"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-two-clocks"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-vigilance-decay"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-angular-momentum-ell"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-chsh-ceiling"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-double-slit-self"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-exchange-stats"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-hydrogen-cloud"
+  },
+  {
+   "beat": "B17",
+   "video": "vox-photoelectric-threshold"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-pib-zero-point"
+  },
+  {
+   "beat": "B18",
+   "video": "vox-schrodinger-i"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-spinor-720"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-stationary-phase"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-stimulated-laser"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-stm-exponential"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-tunneling-wall"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-uncertainty-state"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-bloch-sphere"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-box-ground-state"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-coherent-state"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-complex-wavefunction"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-compton-scatter"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-de-broglie-human"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-double-slit-self"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-energy-ladder"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-liquid-helium"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-packet-spreading"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-photoelectric"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-quantum-corral"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-quantum-tunneling"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-ramsauer-resonance"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-spinning-phase"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-spinor-720"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-step-reflection"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-stern-gerlach-erase"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-stm-tunneling"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-superposition-slosh"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-ultraviolet-catastrophe"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-uncertainty-intrinsic"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-wave-crests"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-21cm-singlet"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-2s-forbidden"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-3d-4s-paradox"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-angular-momentum-cone"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-bloch-sphere-qubit"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-born-rule-projection"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-centrifugal-kinetic"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-ehrenfest-double-well"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-exchange-avoidance"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-half-integer-spin"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-helium-superfluidity"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-hydrogen-cloud"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-larmor-precession"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-phase-clock"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-rabi-oscillation"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-schrodinger-theorem"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-singlet-invariance"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-slater-zero"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-spin-720"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-spin-speed-limit"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-stern-gerlach-erase"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-band-gap"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-bohr-sommerfeld"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-born-fourier"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-chemical-bond"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-fermi-golden-rule"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-feshbach-resonance"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-gamow-exponential"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-hole-effective-mass"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-omega-cubed"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-optical-theorem"
+  },
+  {
+   "beat": "B19",
+   "video": "vox-optimal-truncation"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-phase-shift"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-rabi-parabola"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-second-order-negative"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-selection-rule"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-spin-echo"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-stark-linear"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-variational-floor"
+  },
+  {
+   "beat": "B19",
+   "video": "vox-bloch-decoherence"
+  },
+  {
+   "beat": "B17",
+   "video": "vox-chsh-arithmetic"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-fault-tolerance"
+  },
+  {
+   "beat": "B18",
+   "video": "vox-phase-kickback"
+  },
+  {
+   "beat": "B17",
+   "video": "vox-qubit-teleport"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-same-density-matrix"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-t2-ceiling"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-tensor-product"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-band-gap-fourier"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-eigen-directions"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-fermion-counting"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-fourier-buildup"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-fourier-continuum"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-planck-catastrophe"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-fourier-uncertainty"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-gaussian-polar"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-group-velocity"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-m-quantization"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-multiplicity-peak"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-packet-spread"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-path-integral"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-phasor-stationary"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-potential-parabola"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-quantum-revival"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-spin-measurement"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-tunneling-exponent"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-base-rate-gap"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-cost-inversion"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-effort-misallocation"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-fit-nonsponsor"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-fluency-learning"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-fluency-seam"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-name-match-gap"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-ninety-day-gate"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-recency-size"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-resume-zero"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-skip-rate"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-soc-mismatch"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-sponsor-flip"
+  }
+ ],
+ "OutroSeries": [
+  {
+   "beat": "B13",
+   "video": "vox-ghost-signals"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-apoptosis-resistance"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-bcl-selectivity"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-bypass-track"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-cancer-evolution"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-differentiation-therapy"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-fdg-hif1a"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-hpv-dual-hit"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-hpylori-cancer"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-idh-2hg"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-immune-starvation"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-mgmt-methylation"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-mir-deletion"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-mtap-passenger"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-mutational-signature"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-p53-circuit"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-protein-level-loss"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-rb-convergence"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-restriction-point"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-spindle-checkpoint"
+  },
+  {
+   "beat": "B19",
+   "video": "vox-synthetic-lethality"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-telomere-crisis"
+  },
+  {
+   "beat": "B17",
+   "video": "vox-two-hit"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-venetoclax-priming"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-vhl-hif"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-warburg-carbon"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-abraxane-solvent"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-batch-distribution"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-bystander-effect"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-complexity-yield"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-dar-optimum"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-delivery-diagnosis"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-delivery-funnel"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-doxil-heart"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-emitter-range"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-endosomal-escape"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-epr-gap"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-fdg-proxy"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-isotope-swap"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-light-ceiling"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-protein-corona"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-size-paradox"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-targeting-uptake"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-trial-failure-tree"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-tumor-pressure"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-agent-deleted"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-bias-pipe"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-calibration-curve"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-calibration-useless"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-channel-reset"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-chart-lie"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-confidence-gauge"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-error-cascade"
+  },
+  {
+   "beat": "B17",
+   "video": "vox-heavy-tail-yank"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-injection-wall"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-missing-mnar"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-panda-proxy"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-prediction-lock"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-race-column"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-same-net-same-hole"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-shapley-room"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-subgroup-hidden"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-two-clocks"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-vigilance-decay"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-angular-momentum-ell"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-chsh-ceiling"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-double-slit-self"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-exchange-stats"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-hydrogen-cloud"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-photoelectric-threshold"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-pib-zero-point"
+  },
+  {
+   "beat": "B17",
+   "video": "vox-schrodinger-i"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-spinor-720"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-stationary-phase"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-stimulated-laser"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-stm-exponential"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-tunneling-wall"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-uncertainty-state"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-bloch-sphere"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-box-ground-state"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-coherent-state"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-complex-wavefunction"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-compton-scatter"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-de-broglie-human"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-double-slit-self"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-energy-ladder"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-liquid-helium"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-packet-spreading"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-photoelectric"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-quantum-corral"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-quantum-tunneling"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-ramsauer-resonance"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-spinning-phase"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-spinor-720"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-step-reflection"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-stern-gerlach-erase"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-stm-tunneling"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-superposition-slosh"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-ultraviolet-catastrophe"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-uncertainty-intrinsic"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-wave-crests"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-21cm-singlet"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-2s-forbidden"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-3d-4s-paradox"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-angular-momentum-cone"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-bloch-sphere-qubit"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-born-rule-projection"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-centrifugal-kinetic"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-ehrenfest-double-well"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-exchange-avoidance"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-half-integer-spin"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-helium-superfluidity"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-hydrogen-cloud"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-larmor-precession"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-phase-clock"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-rabi-oscillation"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-schrodinger-theorem"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-singlet-invariance"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-slater-zero"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-spin-720"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-spin-speed-limit"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-stern-gerlach-erase"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-band-gap"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-bohr-sommerfeld"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-born-fourier"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-chemical-bond"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-fermi-golden-rule"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-feshbach-resonance"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-gamow-exponential"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-hole-effective-mass"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-omega-cubed"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-optical-theorem"
+  },
+  {
+   "beat": "B18",
+   "video": "vox-optimal-truncation"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-phase-shift"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-rabi-parabola"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-second-order-negative"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-selection-rule"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-spin-echo"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-stark-linear"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-variational-floor"
+  },
+  {
+   "beat": "B18",
+   "video": "vox-bloch-decoherence"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-chsh-arithmetic"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-fault-tolerance"
+  },
+  {
+   "beat": "B17",
+   "video": "vox-phase-kickback"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-qubit-teleport"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-same-density-matrix"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-t2-ceiling"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-tensor-product"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-band-gap-fourier"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-eigen-directions"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-fermion-counting"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-fourier-buildup"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-fourier-continuum"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-planck-catastrophe"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-fourier-uncertainty"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-gaussian-polar"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-group-velocity"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-m-quantization"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-multiplicity-peak"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-packet-spread"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-path-integral"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-phasor-stationary"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-potential-parabola"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-quantum-revival"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-spin-measurement"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-tunneling-exponent"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-base-rate-gap"
+  },
+  {
+   "beat": "B09",
+   "video": "vox-cost-inversion"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-effort-misallocation"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-fit-nonsponsor"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-fluency-learning"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-fluency-seam"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-name-match-gap"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-ninety-day-gate"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-recency-size"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-resume-zero"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-skip-rate"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-soc-mismatch"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-sponsor-flip"
+  }
+ ],
+ "SlateCard": [
+  {
+   "beat": "B02",
+   "video": "vox-apoptosis-resistance"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-bcl-selectivity"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-bypass-track"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-cancer-evolution"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-differentiation-therapy"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-differentiation-therapy"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-fdg-hif1a"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-hpv-dual-hit"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-hpylori-cancer"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-idh-2hg"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-idh-2hg"
+  },
+  {
+   "beat": "B05",
+   "video": "vox-immune-starvation"
+  },
+  {
+   "beat": "B09",
+   "video": "vox-immune-starvation"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-mgmt-methylation"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-mir-deletion"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-mutational-signature"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-mutational-signature"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-p53-circuit"
+  },
+  {
+   "beat": "B08",
+   "video": "vox-p53-circuit"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-protein-level-loss"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-rb-convergence"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-rb-convergence"
+  },
+  {
+   "beat": "B07",
+   "video": "vox-restriction-point"
+  },
+  {
+   "beat": "B09",
+   "video": "vox-restriction-point"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-spindle-checkpoint"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-synthetic-lethality"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-synthetic-lethality"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-telomere-crisis"
+  },
+  {
+   "beat": "B07",
+   "video": "vox-telomere-crisis"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-two-hit"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-two-hit"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-venetoclax-priming"
+  },
+  {
+   "beat": "B07",
+   "video": "vox-venetoclax-priming"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-vhl-hif"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-vhl-hif"
+  },
+  {
+   "beat": "B05",
+   "video": "vox-warburg-carbon"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-warburg-carbon"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-abraxane-solvent"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-abraxane-solvent"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-batch-distribution"
+  },
+  {
+   "beat": "B07",
+   "video": "vox-bystander-effect"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-complexity-yield"
+  },
+  {
+   "beat": "B05",
+   "video": "vox-dar-optimum"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-delivery-diagnosis"
+  },
+  {
+   "beat": "B08",
+   "video": "vox-delivery-diagnosis"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-delivery-funnel"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-doxil-heart"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-doxil-heart"
+  },
+  {
+   "beat": "B07",
+   "video": "vox-emitter-range"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-endosomal-escape"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-epr-gap"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-epr-gap"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-fdg-proxy"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-fdg-proxy"
+  },
+  {
+   "beat": "B09",
+   "video": "vox-fdg-proxy"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-isotope-swap"
+  },
+  {
+   "beat": "B09",
+   "video": "vox-isotope-swap"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-light-ceiling"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-protein-corona"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-size-paradox"
+  },
+  {
+   "beat": "B07",
+   "video": "vox-size-paradox"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-targeting-uptake"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-trial-failure-tree"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-trial-failure-tree"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-tumor-pressure"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-agent-deleted"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-agent-deleted"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-agent-deleted"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-bias-pipe"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-bias-pipe"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-bias-pipe"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-calibration-curve"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-calibration-curve"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-calibration-curve"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-calibration-useless"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-calibration-useless"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-calibration-useless"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-channel-reset"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-channel-reset"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-channel-reset"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-chart-lie"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-chart-lie"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-chart-lie"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-confidence-gauge"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-confidence-gauge"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-confidence-gauge"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-error-cascade"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-error-cascade"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-error-cascade"
+  },
+  {
+   "beat": "B04",
+   "video": "vox-heavy-tail-yank"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-heavy-tail-yank"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-heavy-tail-yank"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-injection-wall"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-injection-wall"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-injection-wall"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-missing-mnar"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-missing-mnar"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-missing-mnar"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-panda-proxy"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-panda-proxy"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-panda-proxy"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-prediction-lock"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-prediction-lock"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-prediction-lock"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-race-column"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-race-column"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-race-column"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-same-net-same-hole"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-same-net-same-hole"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-shapley-room"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-shapley-room"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-shapley-room"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-subgroup-hidden"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-subgroup-hidden"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-subgroup-hidden"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-two-clocks"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-two-clocks"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-two-clocks"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-vigilance-decay"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-vigilance-decay"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-vigilance-decay"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-angular-momentum-ell"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-chsh-ceiling"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-double-slit-self"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-exchange-stats"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-hydrogen-cloud"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-photoelectric-threshold"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-pib-zero-point"
+  },
+  {
+   "beat": "B01",
+   "video": "vox-planck-catastrophe"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-planck-catastrophe"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-planck-catastrophe"
+  },
+  {
+   "beat": "B04",
+   "video": "vox-planck-catastrophe"
+  },
+  {
+   "beat": "B05",
+   "video": "vox-planck-catastrophe"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-planck-catastrophe"
+  },
+  {
+   "beat": "B07",
+   "video": "vox-planck-catastrophe"
+  },
+  {
+   "beat": "B08",
+   "video": "vox-planck-catastrophe"
+  },
+  {
+   "beat": "B09",
+   "video": "vox-planck-catastrophe"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-planck-catastrophe"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-planck-catastrophe"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-schrodinger-i"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-spinor-720"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-stationary-phase"
+  },
+  {
+   "beat": "B08",
+   "video": "vox-stimulated-laser"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-stm-exponential"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-tunneling-wall"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-uncertainty-state"
+  },
+  {
+   "beat": "B01",
+   "video": "vox-compton-scatter"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-compton-scatter"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-compton-scatter"
+  },
+  {
+   "beat": "B04",
+   "video": "vox-compton-scatter"
+  },
+  {
+   "beat": "B05",
+   "video": "vox-compton-scatter"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-compton-scatter"
+  },
+  {
+   "beat": "B07",
+   "video": "vox-compton-scatter"
+  },
+  {
+   "beat": "B08",
+   "video": "vox-compton-scatter"
+  },
+  {
+   "beat": "B09",
+   "video": "vox-compton-scatter"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-compton-scatter"
+  },
+  {
+   "beat": "B09",
+   "video": "vox-wave-crests"
+  },
+  {
+   "beat": "B09",
+   "video": "vox-angular-momentum-cone"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-helium-superfluidity"
+  },
+  {
+   "beat": "B09",
+   "video": "vox-larmor-precession"
+  },
+  {
+   "beat": "B01",
+   "video": "vox-slater-zero"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-slater-zero"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-slater-zero"
+  },
+  {
+   "beat": "B04",
+   "video": "vox-slater-zero"
+  },
+  {
+   "beat": "B05",
+   "video": "vox-slater-zero"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-slater-zero"
+  },
+  {
+   "beat": "B07",
+   "video": "vox-slater-zero"
+  },
+  {
+   "beat": "B08",
+   "video": "vox-slater-zero"
+  },
+  {
+   "beat": "B09",
+   "video": "vox-slater-zero"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-slater-zero"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-band-gap"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-band-gap"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-bohr-sommerfeld"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-bohr-sommerfeld"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-bohr-sommerfeld"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-bohr-sommerfeld"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-born-fourier"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-born-fourier"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-chemical-bond"
+  },
+  {
+   "beat": "B05",
+   "video": "vox-chemical-bond"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-chemical-bond"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-fermi-golden-rule"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-fermi-golden-rule"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-feshbach-resonance"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-feshbach-resonance"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-feshbach-resonance"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-feshbach-resonance"
+  },
+  {
+   "beat": "B01",
+   "video": "vox-form-factor"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-form-factor"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-form-factor"
+  },
+  {
+   "beat": "B04",
+   "video": "vox-form-factor"
+  },
+  {
+   "beat": "B05",
+   "video": "vox-form-factor"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-form-factor"
+  },
+  {
+   "beat": "B07",
+   "video": "vox-form-factor"
+  },
+  {
+   "beat": "B08",
+   "video": "vox-form-factor"
+  },
+  {
+   "beat": "B09",
+   "video": "vox-form-factor"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-form-factor"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-form-factor"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-form-factor"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-form-factor"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-form-factor"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-gamow-exponential"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-gamow-exponential"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-gamow-exponential"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-hole-effective-mass"
+  },
+  {
+   "beat": "B04",
+   "video": "vox-hole-effective-mass"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-hole-effective-mass"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-hole-effective-mass"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-omega-cubed"
+  },
+  {
+   "beat": "B04",
+   "video": "vox-omega-cubed"
+  },
+  {
+   "beat": "B09",
+   "video": "vox-omega-cubed"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-omega-cubed"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-optical-theorem"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-optical-theorem"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-optimal-truncation"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-optimal-truncation"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-optimal-truncation"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-optimal-truncation"
+  },
+  {
+   "beat": "B17",
+   "video": "vox-optimal-truncation"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-phase-shift"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-phase-shift"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-phase-shift"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-phase-shift"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-rabi-parabola"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-rabi-parabola"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-second-order-negative"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-second-order-negative"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-second-order-negative"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-second-order-negative"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-selection-rule"
+  },
+  {
+   "beat": "B04",
+   "video": "vox-selection-rule"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-selection-rule"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-selection-rule"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-spin-echo"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-spin-echo"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-stark-linear"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-stark-linear"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-variational-floor"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-variational-floor"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-variational-floor"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-variational-floor"
+  },
+  {
+   "beat": "B01",
+   "video": "vox-bloch-decoherence"
+  },
+  {
+   "beat": "B04",
+   "video": "vox-bloch-decoherence"
+  },
+  {
+   "beat": "B05",
+   "video": "vox-bloch-decoherence"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-bloch-decoherence"
+  },
+  {
+   "beat": "B09",
+   "video": "vox-bloch-decoherence"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-bloch-decoherence"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-bloch-decoherence"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-bloch-decoherence"
+  },
+  {
+   "beat": "B17",
+   "video": "vox-bloch-decoherence"
+  },
+  {
+   "beat": "B01",
+   "video": "vox-chsh-arithmetic"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-chsh-arithmetic"
+  },
+  {
+   "beat": "B05",
+   "video": "vox-chsh-arithmetic"
+  },
+  {
+   "beat": "B07",
+   "video": "vox-chsh-arithmetic"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-chsh-arithmetic"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-chsh-arithmetic"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-chsh-arithmetic"
+  },
+  {
+   "beat": "B01",
+   "video": "vox-fault-tolerance"
+  },
+  {
+   "beat": "B04",
+   "video": "vox-fault-tolerance"
+  },
+  {
+   "beat": "B05",
+   "video": "vox-fault-tolerance"
+  },
+  {
+   "beat": "B08",
+   "video": "vox-fault-tolerance"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-fault-tolerance"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-fault-tolerance"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-fault-tolerance"
+  },
+  {
+   "beat": "B01",
+   "video": "vox-phase-kickback"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-phase-kickback"
+  },
+  {
+   "beat": "B05",
+   "video": "vox-phase-kickback"
+  },
+  {
+   "beat": "B08",
+   "video": "vox-phase-kickback"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-phase-kickback"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-phase-kickback"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-phase-kickback"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-phase-kickback"
+  },
+  {
+   "beat": "B05",
+   "video": "vox-qubit-teleport"
+  },
+  {
+   "beat": "B13",
+   "video": "vox-qubit-teleport"
+  },
+  {
+   "beat": "B01",
+   "video": "vox-same-density-matrix"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-same-density-matrix"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-same-density-matrix"
+  },
+  {
+   "beat": "B09",
+   "video": "vox-same-density-matrix"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-same-density-matrix"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-same-density-matrix"
+  }
+ ]
+}
