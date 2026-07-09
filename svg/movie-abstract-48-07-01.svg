@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="219.525" height="137.695" viewBox="381.303 2603.790 219.525 137.695"><defs id="defs1"><clipPath clipPathUnits="userSpaceOnUse" id="clipPath32">
+      <path d="M 0,3370.3901 H 2383.9401 V -2.5000001e-5 H 0 Z" id="path32" />
+    </clipPath>
+  </defs><g id="object"><path id="path26" d="M 9.8422922,-3.953125e-4 H 21.104011 V -39.492583 H 54.11573 v -9.316406 H 21.104011 v -29.003906 h 35.742187 v -9.457032 H 9.8422922 Z M 72.900886,-87.269927 V -3.953125e-4 H 84.162605 V -87.269927 Z M 120.41749,-3.953125e-4 h 11.39062 V -77.683989 h 26.67188 v -9.585938 H 93.874519 v 9.585938 h 26.542971 z m 0,0" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" aria-label="FIT" transform="matrix(1.3333333,0,0,1.3333333,378.8496,2730.8169)" />
+      <path id="path27" d="m 0,0 h 11.265 v 39.492 h 33.018 v 9.322 H 11.265 v 29.004 h 35.737 v 9.453 H 0 Z" style="fill:none;stroke:#ffffff;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="matrix(1.3333333,0,0,-1.3333333,391.97,2730.8169)" />
+      <path id="path28" d="M 0,0 V -87.271 H 11.265 V 0 Z" style="fill:none;stroke:#ffffff;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="matrix(1.3333333,0,0,-1.3333333,476.04627,2614.4561)" />
+      <path id="path29" d="m 0,0 h 11.395 v 77.688 h 26.672 v 9.583 h -64.61 V 77.688 H 0 Z" style="fill:none;stroke:#ffffff;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="matrix(1.3333333,0,0,-1.3333333,539.4056,2730.8169)" />
+      </g></svg>

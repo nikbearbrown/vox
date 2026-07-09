@@ -1,0 +1,804 @@
+@@ remotion-scenes | BackgroundAnimations | BackgroundAurora
+  path: remotion-scenes/src/scenes/BackgroundAnimations/BackgroundAurora.tsx
+  hex:1 props: tags:
+  desc: BackgroundAurora - オーロラ効果 
+@@ remotion-scenes | BackgroundAnimations | BackgroundBokeh
+  path: remotion-scenes/src/scenes/BackgroundAnimations/BackgroundBokeh.tsx
+  hex:0 props: tags:
+  desc: BackgroundBokeh - ボケ効果 
+@@ remotion-scenes | BackgroundAnimations | BackgroundFlowingGradient
+  path: remotion-scenes/src/scenes/BackgroundAnimations/BackgroundFlowingGradient.tsx
+  hex:0 props: tags:
+  desc: BackgroundFlowingGradient - 流れるグラデーション 
+@@ remotion-scenes | BackgroundAnimations | BackgroundGeometric
+  path: remotion-scenes/src/scenes/BackgroundAnimations/BackgroundGeometric.tsx
+  hex:0 props: tags:
+  desc: BackgroundGeometric - ジオメトリックパターン 
+@@ remotion-scenes | BackgroundAnimations | BackgroundGrid
+  path: remotion-scenes/src/scenes/BackgroundAnimations/BackgroundGrid.tsx
+  hex:0 props: tags:
+  desc: BackgroundGrid - グリッドアニメーション 
+@@ remotion-scenes | BackgroundAnimations | BackgroundMeshGradient
+  path: remotion-scenes/src/scenes/BackgroundAnimations/BackgroundMeshGradient.tsx
+  hex:0 props: tags:
+  desc: BackgroundMeshGradient - メッシュグラデーション 
+@@ remotion-scenes | BackgroundAnimations | BackgroundNoiseTexture
+  path: remotion-scenes/src/scenes/BackgroundAnimations/BackgroundNoiseTexture.tsx
+  hex:0 props: tags:
+  desc: BackgroundNoiseTexture - ノイズテクスチャ 
+@@ remotion-scenes | BackgroundAnimations | BackgroundPerspectiveGrid
+  path: remotion-scenes/src/scenes/BackgroundAnimations/BackgroundPerspectiveGrid.tsx
+  hex:0 props: tags:
+  desc: BackgroundPerspectiveGrid - パースペクティブグリッド 
+@@ remotion-scenes | BackgroundAnimations | BackgroundRadial
+  path: remotion-scenes/src/scenes/BackgroundAnimations/BackgroundRadial.tsx
+  hex:0 props: tags:
+  desc: BackgroundRadial - 放射状パターン 
+@@ remotion-scenes | BackgroundAnimations | BackgroundWaves
+  path: remotion-scenes/src/scenes/BackgroundAnimations/BackgroundWaves.tsx
+  hex:0 props: tags:
+  desc: BackgroundWaves - 波形背景 
+@@ remotion-scenes | CinematicAnimations | CinematicAction
+  path: remotion-scenes/src/scenes/CinematicAnimations/CinematicAction.tsx
+  hex:0 props: tags:
+  desc: CinematicAction - アクションタイトル 
+@@ remotion-scenes | CinematicAnimations | CinematicAnime
+  path: remotion-scenes/src/scenes/CinematicAnimations/CinematicAnime.tsx
+  hex:2 props: tags:
+  desc: CinematicAnime - アニメ風タイトル 
+@@ remotion-scenes | CinematicAnimations | CinematicDocumentary
+  path: remotion-scenes/src/scenes/CinematicAnimations/CinematicDocumentary.tsx
+  hex:0 props: tags:
+  desc: CinematicDocumentary - ドキュメンタリー風 
+@@ remotion-scenes | CinematicAnimations | CinematicEpic
+  path: remotion-scenes/src/scenes/CinematicAnimations/CinematicEpic.tsx
+  hex:0 props: tags:
+  desc: CinematicEpic - エピックタイトル - 大作映画風 
+@@ remotion-scenes | CinematicAnimations | CinematicHorror
+  path: remotion-scenes/src/scenes/CinematicAnimations/CinematicHorror.tsx
+  hex:0 props: tags:
+  desc: CinematicHorror - ホラータイトル 
+@@ remotion-scenes | CinematicAnimations | CinematicMinimalEnd
+  path: remotion-scenes/src/scenes/CinematicAnimations/CinematicMinimalEnd.tsx
+  hex:0 props: tags:
+  desc: CinematicMinimalEnd - ミニマリストエンディング 
+@@ remotion-scenes | CinematicAnimations | CinematicNoir
+  path: remotion-scenes/src/scenes/CinematicAnimations/CinematicNoir.tsx
+  hex:0 props: tags:
+  desc: CinematicNoir - ノワール風 
+@@ remotion-scenes | CinematicAnimations | CinematicRomance
+  path: remotion-scenes/src/scenes/CinematicAnimations/CinematicRomance.tsx
+  hex:3 props: tags:
+  desc: CinematicRomance - ロマンスタイトル 
+@@ remotion-scenes | CinematicAnimations | CinematicSciFi
+  path: remotion-scenes/src/scenes/CinematicAnimations/CinematicSciFi.tsx
+  hex:1 props: tags:
+  desc: CinematicSciFi - SF/テック風 
+@@ remotion-scenes | CinematicAnimations | CinematicVintage
+  path: remotion-scenes/src/scenes/CinematicAnimations/CinematicVintage.tsx
+  hex:6 props: tags:
+  desc: CinematicVintage - ヴィンテージ風 
+@@ remotion-scenes | DataAnimations | DataBarChart
+  path: remotion-scenes/src/scenes/DataAnimations/DataBarChart.tsx
+  hex:0 props: tags:
+  desc: DataBarChart - バーチャート - 棒グラフ 
+@@ remotion-scenes | DataAnimations | DataGauge
+  path: remotion-scenes/src/scenes/DataAnimations/DataGauge.tsx
+  hex:0 props: tags:
+  desc: DataGauge - ゲージメーター - スピードメーター風 
+@@ remotion-scenes | DataAnimations | DataLineChart
+  path: remotion-scenes/src/scenes/DataAnimations/DataLineChart.tsx
+  hex:0 props: tags:
+  desc: DataLineChart - ラインチャート - 折れ線グラフ 
+@@ remotion-scenes | DataAnimations | DataPieChart
+  path: remotion-scenes/src/scenes/DataAnimations/DataPieChart.tsx
+  hex:0 props: tags:
+  desc: DataPieChart - パイチャート - 円グラフ 
+@@ remotion-scenes | DataAnimations | DataProgressBars
+  path: remotion-scenes/src/scenes/DataAnimations/DataProgressBars.tsx
+  hex:0 props: tags:
+  desc: DataProgressBars - プログレスバー - 複数のプログレス 
+@@ remotion-scenes | DataAnimations | DataRanking
+  path: remotion-scenes/src/scenes/DataAnimations/DataRanking.tsx
+  hex:0 props: tags:
+  desc: DataRanking - ランキング - リストアニメーション 
+@@ remotion-scenes | DataAnimations | DataStatsCards
+  path: remotion-scenes/src/scenes/DataAnimations/DataStatsCards.tsx
+  hex:0 props: tags:
+  desc: DataStatsCards - スタッツカード - 統計カード（非対称レイアウト） 
+@@ remotion-scenes | DataAnimations | DataTimeline
+  path: remotion-scenes/src/scenes/DataAnimations/DataTimeline.tsx
+  hex:0 props: tags:
+  desc: DataTimeline - タイムライン - 時系列表示 
+@@ remotion-scenes | DemoAnimations | DemoAddressBar
+  path: remotion-scenes/src/scenes/DemoAnimations/DemoAddressBar.tsx
+  hex:3 props: tags:
+  desc: DemoAddressBar - ブラウザアドレスバーデモ 
+@@ remotion-scenes | DemoAnimations | DemoCursorClick
+  path: remotion-scenes/src/scenes/DemoAnimations/DemoCursorClick.tsx
+  hex:0 props: tags:
+  desc: DemoCursorClick - マウスカーソル移動 + クリック 
+@@ remotion-scenes | DemoAnimations | DemoDragDrop
+  path: remotion-scenes/src/scenes/DemoAnimations/DemoDragDrop.tsx
+  hex:0 props: tags:
+  desc: DemoDragDrop - ドラッグ&ドロップデモ 
+@@ remotion-scenes | DemoAnimations | DemoMenuExpand
+  path: remotion-scenes/src/scenes/DemoAnimations/DemoMenuExpand.tsx
+  hex:0 props: tags:
+  desc: DemoMenuExpand - メニュー展開デモ 
+@@ remotion-scenes | DemoAnimations | DemoModal
+  path: remotion-scenes/src/scenes/DemoAnimations/DemoModal.tsx
+  hex:0 props: tags:
+  desc: DemoModal - モーダル表示デモ 
+@@ remotion-scenes | DemoAnimations | DemoPageTransition
+  path: remotion-scenes/src/scenes/DemoAnimations/DemoPageTransition.tsx
+  hex:0 props: tags:
+  desc: DemoPageTransition - 画面遷移デモ 
+@@ remotion-scenes | DemoAnimations | DemoScroll
+  path: remotion-scenes/src/scenes/DemoAnimations/DemoScroll.tsx
+  hex:3 props: tags:
+  desc: DemoScroll - 画面スクロールデモ 
+@@ remotion-scenes | DemoAnimations | DemoSearchFilter
+  path: remotion-scenes/src/scenes/DemoAnimations/DemoSearchFilter.tsx
+  hex:0 props: tags:
+  desc: DemoSearchFilter - 検索フィルターデモ 
+@@ remotion-scenes | DemoAnimations | DemoTextInput
+  path: remotion-scenes/src/scenes/DemoAnimations/DemoTextInput.tsx
+  hex:0 props: tags:
+  desc: DemoTextInput - テキスト入力デモ 
+@@ remotion-scenes | DemoAnimations | DemoTooltip
+  path: remotion-scenes/src/scenes/DemoAnimations/DemoTooltip.tsx
+  hex:0 props: tags:
+  desc: DemoTooltip - ツールチップ/ポップオーバーデモ 
+@@ remotion-scenes | DemoAnimations | DemoWizard
+  path: remotion-scenes/src/scenes/DemoAnimations/DemoWizard.tsx
+  hex:0 props: tags:
+  desc: DemoWizard - ステップウィザードデモ 
+@@ remotion-scenes | DemoAnimations | DemoZoomFocus
+  path: remotion-scenes/src/scenes/DemoAnimations/DemoZoomFocus.tsx
+  hex:0 props: tags:
+  desc: DemoZoomFocus - ズームイン/フォーカスデモ 
+@@ remotion-scenes | EffectAnimations | EffectChromaticAberration
+  path: remotion-scenes/src/scenes/EffectAnimations/EffectChromaticAberration.tsx
+  hex:0 props: tags:
+  desc: EffectChromaticAberration - 色収差 - クロマティックアベレーション 
+@@ remotion-scenes | EffectAnimations | EffectDepthOfField
+  path: remotion-scenes/src/scenes/EffectAnimations/EffectDepthOfField.tsx
+  hex:0 props: tags:
+  desc: EffectDepthOfField - ぼかし深度 - デプスオブフィールド 
+@@ remotion-scenes | EffectAnimations | EffectDuotone
+  path: remotion-scenes/src/scenes/EffectAnimations/EffectDuotone.tsx
+  hex:0 props: tags:
+  desc: EffectDuotone - デュオトーン効果 
+@@ remotion-scenes | EffectAnimations | EffectFilmGrain
+  path: remotion-scenes/src/scenes/EffectAnimations/EffectFilmGrain.tsx
+  hex:0 props: tags:
+  desc: EffectFilmGrain - フィルムグレイン - 映画風ノイズ 
+@@ remotion-scenes | EffectAnimations | EffectGlow
+  path: remotion-scenes/src/scenes/EffectAnimations/EffectGlow.tsx
+  hex:0 props: tags:
+  desc: EffectGlow - グロー効果 - 発光 
+@@ remotion-scenes | EffectAnimations | EffectKaleidoscope
+  path: remotion-scenes/src/scenes/EffectAnimations/EffectKaleidoscope.tsx
+  hex:0 props: tags:
+  desc: EffectKaleidoscope - 万華鏡エフェクト 
+@@ remotion-scenes | EffectAnimations | EffectLightLeak
+  path: remotion-scenes/src/scenes/EffectAnimations/EffectLightLeak.tsx
+  hex:0 props: tags:
+  desc: EffectLightLeak - ライトリーク - 光漏れ効果 
+@@ remotion-scenes | EffectAnimations | EffectMatrix
+  path: remotion-scenes/src/scenes/EffectAnimations/EffectMatrix.tsx
+  hex:6 props: tags:
+  desc: EffectMatrix - マトリックス風 
+@@ remotion-scenes | EffectAnimations | EffectNoise
+  path: remotion-scenes/src/scenes/EffectAnimations/EffectNoise.tsx
+  hex:0 props: tags:
+  desc: EffectNoise - ノイズテクスチャ - TVノイズ 
+@@ remotion-scenes | EffectAnimations | EffectVHS
+  path: remotion-scenes/src/scenes/EffectAnimations/EffectVHS.tsx
+  hex:0 props: tags:
+  desc: EffectVHS - VHSエフェクト 
+@@ remotion-scenes | LayoutAnimations | LayoutAsymmetric
+  path: remotion-scenes/src/scenes/LayoutAnimations/LayoutAsymmetric.tsx
+  hex:0 props: tags:
+  desc: LayoutAsymmetric - 極端な非対称レイアウト - 左に巨大テキスト、右に小さな情報 
+@@ remotion-scenes | LayoutAnimations | LayoutDiagonal
+  path: remotion-scenes/src/scenes/LayoutAnimations/LayoutDiagonal.tsx
+  hex:0 props: tags:
+  desc: LayoutDiagonal - 対角線構成 - ダイナミックな斜め配置 
+@@ remotion-scenes | LayoutAnimations | LayoutFrameInFrame
+  path: remotion-scenes/src/scenes/LayoutAnimations/LayoutFrameInFrame.tsx
+  hex:0 props: tags:
+  desc: LayoutFrameInFrame - フレーム・イン・フレーム 
+@@ remotion-scenes | LayoutAnimations | LayoutFullscreenType
+  path: remotion-scenes/src/scenes/LayoutAnimations/LayoutFullscreenType.tsx
+  hex:0 props: tags:
+  desc: LayoutFullscreenType - フルスクリーンタイポグラフィ - 画面いっぱいの文字 
+@@ remotion-scenes | LayoutAnimations | LayoutGiantNumber
+  path: remotion-scenes/src/scenes/LayoutAnimations/LayoutGiantNumber.tsx
+  hex:0 props: tags:
+  desc: LayoutGiantNumber - 巨大数字 + テキスト - データ強調レイアウト 
+@@ remotion-scenes | LayoutAnimations | LayoutGridBreak
+  path: remotion-scenes/src/scenes/LayoutAnimations/LayoutGridBreak.tsx
+  hex:0 props: tags:
+  desc: LayoutGridBreak - グリッドブレイク - 規則性を崩す 
+@@ remotion-scenes | LayoutAnimations | LayoutLayered
+  path: remotion-scenes/src/scenes/LayoutAnimations/LayoutLayered.tsx
+  hex:0 props: tags:
+  desc: LayoutLayered - レイヤード構成 - 奥行き感 
+@@ remotion-scenes | LayoutAnimations | LayoutMultiColumn
+  path: remotion-scenes/src/scenes/LayoutAnimations/LayoutMultiColumn.tsx
+  hex:0 props: tags:
+  desc: LayoutMultiColumn - マルチコラムレイアウト - 情報の並列配置 
+@@ remotion-scenes | LayoutAnimations | LayoutOffGrid
+  path: remotion-scenes/src/scenes/LayoutAnimations/LayoutOffGrid.tsx
+  hex:0 props: tags:
+  desc: LayoutOffGrid - オフグリッドレイアウト - 意図的にずらした配置 
+@@ remotion-scenes | LayoutAnimations | LayoutSplitContrast
+  path: remotion-scenes/src/scenes/LayoutAnimations/LayoutSplitContrast.tsx
+  hex:0 props: tags:
+  desc: LayoutSplitContrast - スプリットスクリーン - 左右で対比 
+@@ remotion-scenes | LayoutAnimations | LayoutVerticalMix
+  path: remotion-scenes/src/scenes/LayoutAnimations/LayoutVerticalMix.tsx
+  hex:0 props: tags:
+  desc: LayoutVerticalMix - 縦書き + 横書きミックス 
+@@ remotion-scenes | LayoutAnimations | LayoutWhitespace
+  path: remotion-scenes/src/scenes/LayoutAnimations/LayoutWhitespace.tsx
+  hex:0 props: tags:
+  desc: LayoutWhitespace - ホワイトスペース活用 - ミニマル極致 
+@@ remotion-scenes | LiquidAnimations | LiquidBlob
+  path: remotion-scenes/src/scenes/LiquidAnimations/LiquidBlob.tsx
+  hex:0 props: tags:
+  desc: LiquidBlob - 有機的ブロブモーション - 複数レイヤーの巨大ブロブ 
+@@ remotion-scenes | LiquidAnimations | LiquidCalligraphyInk
+  path: remotion-scenes/src/scenes/LiquidAnimations/LiquidCalligraphyInk.tsx
+  hex:6 props: tags:
+  desc: LiquidCalligraphyInk - 墨/書道風インク - ダイナミックな筆致と飛沫 
+@@ remotion-scenes | LiquidAnimations | LiquidFluidWave
+  path: remotion-scenes/src/scenes/LiquidAnimations/LiquidFluidWave.tsx
+  hex:2 props: tags:
+  desc: LiquidFluidWave - 流体ウェーブ - 画面を覆う巨大な波 
+@@ remotion-scenes | LiquidAnimations | LiquidInkSplash
+  path: remotion-scenes/src/scenes/LiquidAnimations/LiquidInkSplash.tsx
+  hex:0 props: tags:
+  desc: LiquidInkSplash - インクスプラッシュリビール（Spotify風） 
+@@ remotion-scenes | LiquidAnimations | LiquidMorphBlob
+  path: remotion-scenes/src/scenes/LiquidAnimations/LiquidMorphBlob.tsx
+  hex:0 props: tags:
+  desc: LiquidMorphBlob - モーフィングブロブ - 巨大な変形するブロブ群 
+@@ remotion-scenes | LiquidAnimations | LiquidOilSpill
+  path: remotion-scenes/src/scenes/LiquidAnimations/LiquidOilSpill.tsx
+  hex:3 props: tags:
+  desc: LiquidOilSpill - オイルスピル風 - 虹色に輝く巨大な油膜 
+@@ remotion-scenes | LiquidAnimations | LiquidPaintDrip
+  path: remotion-scenes/src/scenes/LiquidAnimations/LiquidPaintDrip.tsx
+  hex:0 props: tags:
+  desc: LiquidPaintDrip - ペイントドリップ - 画面を覆うカラフルなペイント 
+@@ remotion-scenes | LiquidAnimations | LiquidSplatter
+  path: remotion-scenes/src/scenes/LiquidAnimations/LiquidSplatter.tsx
+  hex:0 props: tags:
+  desc: LiquidSplatter - スプラッターエフェクト - 画面を覆う大胆なスプラッシュ 
+@@ remotion-scenes | LiquidAnimations | LiquidSwirl
+  path: remotion-scenes/src/scenes/LiquidAnimations/LiquidSwirl.tsx
+  hex:0 props: tags:
+  desc: LiquidSwirl - 渦巻きスワール - 巨大な液体渦巻き 
+@@ remotion-scenes | LiquidAnimations | LiquidWaterDrop
+  path: remotion-scenes/src/scenes/LiquidAnimations/LiquidWaterDrop.tsx
+  hex:3 props: tags:
+  desc: LiquidWaterDrop - 水滴リップルエフェクト - 巨大な波紋と水柱 
+@@ remotion-scenes | ListAnimations | ListAsymmetric3
+  path: remotion-scenes/src/scenes/ListAnimations/ListAsymmetric3.tsx
+  hex:0 props: tags:
+  desc: ListAsymmetric3 - 非対称3要素（1大+2小）- 最重要を大きく 
+@@ remotion-scenes | ListAnimations | ListFullscreenSequence
+  path: remotion-scenes/src/scenes/ListAnimations/ListFullscreenSequence.tsx
+  hex:0 props: tags:
+  desc: ListFullscreenSequence - フルスクリーン順次表示（1要素ずつ） 
+@@ remotion-scenes | ListAnimations | ListHeroWithList
+  path: remotion-scenes/src/scenes/ListAnimations/ListHeroWithList.tsx
+  hex:0 props: tags:
+  desc: ListHeroWithList - 強調1つ + リスト 
+@@ remotion-scenes | ListAnimations | ListHorizontalPeek
+  path: remotion-scenes/src/scenes/ListAnimations/ListHorizontalPeek.tsx
+  hex:0 props: tags:
+  desc: ListHorizontalPeek - 横スクロール風（見切れ表現） 
+@@ remotion-scenes | ListAnimations | ListMinimalLeft
+  path: remotion-scenes/src/scenes/ListAnimations/ListMinimalLeft.tsx
+  hex:0 props: tags:
+  desc: ListMinimalLeft - 左寄せミニマルリスト 
+@@ remotion-scenes | ListAnimations | ListNumberedVertical
+  path: remotion-scenes/src/scenes/ListAnimations/ListNumberedVertical.tsx
+  hex:0 props: tags:
+  desc: ListNumberedVertical - 縦積み番号リスト（左揃え、番号強調） 
+@@ remotion-scenes | ListAnimations | ListSimpleText
+  path: remotion-scenes/src/scenes/ListAnimations/ListSimpleText.tsx
+  hex:0 props: tags:
+  desc: ListSimpleText - アイコンなしシンプルリスト 
+@@ remotion-scenes | ListAnimations | ListStaggered
+  path: remotion-scenes/src/scenes/ListAnimations/ListStaggered.tsx
+  hex:0 props: tags:
+  desc: ListStaggered - ジグザグ/スタッガード配置 
+@@ remotion-scenes | ListAnimations | ListStatsFocused
+  path: remotion-scenes/src/scenes/ListAnimations/ListStatsFocused.tsx
+  hex:0 props: tags:
+  desc: ListStatsFocused - 数字強調型（統計リスト） 
+@@ remotion-scenes | ListAnimations | ListTimeline
+  path: remotion-scenes/src/scenes/ListAnimations/ListTimeline.tsx
+  hex:0 props: tags:
+  desc: ListTimeline - タイムライン風縦リスト 
+@@ remotion-scenes | ListAnimations | ListTwoColumnCompare
+  path: remotion-scenes/src/scenes/ListAnimations/ListTwoColumnCompare.tsx
+  hex:0 props: tags:
+  desc: ListTwoColumnCompare - 特徴比較（2カラム） 
+@@ remotion-scenes | ListAnimations | ListUnevenGrid
+  path: remotion-scenes/src/scenes/ListAnimations/ListUnevenGrid.tsx
+  hex:0 props: tags:
+  desc: ListUnevenGrid - 非均等グリッド（1大+2小） 
+@@ remotion-scenes | LogoAnimations | Logo3DRotate
+  path: remotion-scenes/src/scenes/LogoAnimations/Logo3DRotate.tsx
+  hex:0 props: tags:
+  desc: Logo3DRotate - ロゴ3D回転 
+@@ remotion-scenes | LogoAnimations | LogoGlitch
+  path: remotion-scenes/src/scenes/LogoAnimations/LogoGlitch.tsx
+  hex:0 props: tags:
+  desc: LogoGlitch - ロゴグリッチ 
+@@ remotion-scenes | LogoAnimations | LogoLightTrail
+  path: remotion-scenes/src/scenes/LogoAnimations/LogoLightTrail.tsx
+  hex:0 props: tags:
+  desc: LogoLightTrail - ロゴライトトレイル 
+@@ remotion-scenes | LogoAnimations | LogoMaskReveal
+  path: remotion-scenes/src/scenes/LogoAnimations/LogoMaskReveal.tsx
+  hex:0 props: tags:
+  desc: LogoMaskReveal - ロゴマスクリビール 
+@@ remotion-scenes | LogoAnimations | LogoMorph
+  path: remotion-scenes/src/scenes/LogoAnimations/LogoMorph.tsx
+  hex:0 props: tags:
+  desc: LogoMorph - ロゴモーフィング 
+@@ remotion-scenes | LogoAnimations | LogoNeonSign
+  path: remotion-scenes/src/scenes/LogoAnimations/LogoNeonSign.tsx
+  hex:3 props: tags:
+  desc: LogoNeonSign - ロゴネオンサイン 
+@@ remotion-scenes | LogoAnimations | LogoParticles
+  path: remotion-scenes/src/scenes/LogoAnimations/LogoParticles.tsx
+  hex:0 props: tags:
+  desc: LogoParticles - ロゴパーティクル集合 
+@@ remotion-scenes | LogoAnimations | LogoSplitScreen
+  path: remotion-scenes/src/scenes/LogoAnimations/LogoSplitScreen.tsx
+  hex:0 props: tags:
+  desc: LogoSplitScreen - ロゴスプリットスクリーン 
+@@ remotion-scenes | LogoAnimations | LogoStamp
+  path: remotion-scenes/src/scenes/LogoAnimations/LogoStamp.tsx
+  hex:0 props: tags:
+  desc: LogoStamp - ロゴスタンプ 
+@@ remotion-scenes | LogoAnimations | LogoStroke
+  path: remotion-scenes/src/scenes/LogoAnimations/LogoStroke.tsx
+  hex:0 props: tags:
+  desc: LogoStroke - ロゴストロークアニメーション 
+@@ remotion-scenes | ParticleAnimations | ParticleBubbles
+  path: remotion-scenes/src/scenes/ParticleAnimations/ParticleBubbles.tsx
+  hex:3 props: tags:
+  desc: ParticleBubbles - 泡エフェクト 
+@@ remotion-scenes | ParticleAnimations | ParticleConfetti
+  path: remotion-scenes/src/scenes/ParticleAnimations/ParticleConfetti.tsx
+  hex:0 props: tags:
+  desc: ParticleConfetti - 紙吹雪エフェクト 
+@@ remotion-scenes | ParticleAnimations | ParticleFireworks
+  path: remotion-scenes/src/scenes/ParticleAnimations/ParticleFireworks.tsx
+  hex:1 props: tags:
+  desc: ParticleFireworks - ファイヤーワークス 
+@@ remotion-scenes | ParticleAnimations | ParticleLightning
+  path: remotion-scenes/src/scenes/ParticleAnimations/ParticleLightning.tsx
+  hex:1 props: tags:
+  desc: ParticleLightning - 電気/雷エフェクト 
+@@ remotion-scenes | ParticleAnimations | ParticleMagneticField
+  path: remotion-scenes/src/scenes/ParticleAnimations/ParticleMagneticField.tsx
+  hex:0 props: tags:
+  desc: ParticleMagneticField - 磁気フィールド 
+@@ remotion-scenes | ParticleAnimations | ParticleSakura
+  path: remotion-scenes/src/scenes/ParticleAnimations/ParticleSakura.tsx
+  hex:5 props: tags:
+  desc: ParticleSakura - 桜吹雪エフェクト 
+@@ remotion-scenes | ParticleAnimations | ParticleShootingStars
+  path: remotion-scenes/src/scenes/ParticleAnimations/ParticleShootingStars.tsx
+  hex:1 props: tags:
+  desc: ParticleShootingStars - 流れ星エフェクト 
+@@ remotion-scenes | ParticleAnimations | ParticleSmoke
+  path: remotion-scenes/src/scenes/ParticleAnimations/ParticleSmoke.tsx
+  hex:0 props: tags:
+  desc: ParticleSmoke - 煙エフェクト 
+@@ remotion-scenes | ParticleAnimations | ParticleSnow
+  path: remotion-scenes/src/scenes/ParticleAnimations/ParticleSnow.tsx
+  hex:3 props: tags:
+  desc: ParticleSnow - 雪エフェクト 
+@@ remotion-scenes | ParticleAnimations | ParticleSparks
+  path: remotion-scenes/src/scenes/ParticleAnimations/ParticleSparks.tsx
+  hex:0 props: tags:
+  desc: ParticleSparks - 火花エフェクト 
+@@ remotion-scenes | RollerAnimations | Roller3DCarousel
+  path: remotion-scenes/src/scenes/RollerAnimations/Roller3DCarousel.tsx
+  hex:0 props: tags:
+  desc: Roller3DCarousel - 3Dカルーセル - 円筒状に回転するテキスト 
+@@ remotion-scenes | RollerAnimations | RollerBlur
+  path: remotion-scenes/src/scenes/RollerAnimations/RollerBlur.tsx
+  hex:0 props: tags:
+  desc: RollerBlur - ブラー切り替え 
+@@ remotion-scenes | RollerAnimations | RollerCountdown
+  path: remotion-scenes/src/scenes/RollerAnimations/RollerCountdown.tsx
+  hex:6 props: tags:
+  desc: RollerCountdown - カウントダウンリビール 
+@@ remotion-scenes | RollerAnimations | RollerDramaticStop
+  path: remotion-scenes/src/scenes/RollerAnimations/RollerDramaticStop.tsx
+  hex:7 props: tags:
+  desc: RollerDramaticStop - ドラマチックストップ - 一度止まりそうになってまた回る 
+@@ remotion-scenes | RollerAnimations | RollerDrum
+  path: remotion-scenes/src/scenes/RollerAnimations/RollerDrum.tsx
+  hex:0 props: tags:
+  desc: RollerDrum - 回転ドラム 
+@@ remotion-scenes | RollerAnimations | RollerFadeSlide
+  path: remotion-scenes/src/scenes/RollerAnimations/RollerFadeSlide.tsx
+  hex:0 props: tags:
+  desc: RollerFadeSlide - フェードスライド（上からフェードイン） 
+@@ remotion-scenes | RollerAnimations | RollerFlip
+  path: remotion-scenes/src/scenes/RollerAnimations/RollerFlip.tsx
+  hex:4 props: tags:
+  desc: RollerFlip - フリップ（カードめくり風） 
+@@ remotion-scenes | RollerAnimations | RollerGlitch
+  path: remotion-scenes/src/scenes/RollerAnimations/RollerGlitch.tsx
+  hex:2 props: tags:
+  desc: RollerGlitch - グリッチ切り替え 
+@@ remotion-scenes | RollerAnimations | RollerGradientWave
+  path: remotion-scenes/src/scenes/RollerAnimations/RollerGradientWave.tsx
+  hex:3 props: tags:
+  desc: RollerGradientWave - グラデーションウェーブ - 色が波のように流れながら変化 
+@@ remotion-scenes | RollerAnimations | RollerLiquid
+  path: remotion-scenes/src/scenes/RollerAnimations/RollerLiquid.tsx
+  hex:0 props: tags:
+  desc: RollerLiquid - 流体モーフィング 
+@@ remotion-scenes | RollerAnimations | RollerMaskSlide
+  path: remotion-scenes/src/scenes/RollerAnimations/RollerMaskSlide.tsx
+  hex:0 props: tags:
+  desc: RollerMaskSlide - マスクスライド 
+@@ remotion-scenes | RollerAnimations | RollerMultiSlot
+  path: remotion-scenes/src/scenes/RollerAnimations/RollerMultiSlot.tsx
+  hex:0 props: tags:
+  desc: RollerMultiSlot - マルチスロット - 複数列が順番に止まる 
+@@ remotion-scenes | RollerAnimations | RollerOutlineHighlight
+  path: remotion-scenes/src/scenes/RollerAnimations/RollerOutlineHighlight.tsx
+  hex:0 props: tags:
+  desc: RollerOutlineHighlight - アウトラインハイライト - 縦に並んだ同じワード、1つだけ塗りつぶし 
+@@ remotion-scenes | RollerAnimations | RollerPerspectiveStripes
+  path: remotion-scenes/src/scenes/RollerAnimations/RollerPerspectiveStripes.tsx
+  hex:0 props: tags:
+  desc: RollerPerspectiveStripes - パースペクティブストライプ - 斜めに流れるテキスト帯 
+@@ remotion-scenes | RollerAnimations | RollerScaleBounce
+  path: remotion-scenes/src/scenes/RollerAnimations/RollerScaleBounce.tsx
+  hex:0 props: tags:
+  desc: RollerScaleBounce - スケールバウンス 
+@@ remotion-scenes | RollerAnimations | RollerShuffle
+  path: remotion-scenes/src/scenes/RollerAnimations/RollerShuffle.tsx
+  hex:0 props: tags:
+  desc: RollerShuffle - シャッフルリビール - 文字がシャッフルされて収束 
+@@ remotion-scenes | RollerAnimations | RollerSlotMachine
+  path: remotion-scenes/src/scenes/RollerAnimations/RollerSlotMachine.tsx
+  hex:4 props: tags:
+  desc: RollerSlotMachine - 高速縦ロール（スロットマシン風） 
+@@ remotion-scenes | RollerAnimations | RollerSlotReveal
+  path: remotion-scenes/src/scenes/RollerAnimations/RollerSlotReveal.tsx
+  hex:0 props: tags:
+  desc: RollerSlotReveal - スロットリビール - 「New [X]」形式でゆっくり→高速→キャッチコピー 
+@@ remotion-scenes | RollerAnimations | RollerSplitFlap
+  path: remotion-scenes/src/scenes/RollerAnimations/RollerSplitFlap.tsx
+  hex:0 props: tags:
+  desc: RollerSplitFlap - スプリットフラップ（空港案内板風） 
+@@ remotion-scenes | RollerAnimations | RollerTypewriter
+  path: remotion-scenes/src/scenes/RollerAnimations/RollerTypewriter.tsx
+  hex:0 props: tags:
+  desc: RollerTypewriter - タイプライター置換 
+@@ remotion-scenes | RollerAnimations | RollerVerticalList
+  path: remotion-scenes/src/scenes/RollerAnimations/RollerVerticalList.tsx
+  hex:0 props: tags:
+  desc: RollerVerticalList - 縦スクロール（リスト風） 
+@@ remotion-scenes | RollerAnimations | RollerWave
+  path: remotion-scenes/src/scenes/RollerAnimations/RollerWave.tsx
+  hex:2 props: tags:
+  desc: RollerWave - 波形スライド 
+@@ remotion-scenes | ShapeAnimations | Shape3DCube
+  path: remotion-scenes/src/scenes/ShapeAnimations/Shape3DCube.tsx
+  hex:0 props: tags:
+  desc: Shape3DCube - 3D回転キューブ 
+@@ remotion-scenes | ShapeAnimations | ShapeCircularProgress
+  path: remotion-scenes/src/scenes/ShapeAnimations/ShapeCircularProgress.tsx
+  hex:0 props: tags:
+  desc: ShapeCircularProgress - 円形プログレス 
+@@ remotion-scenes | ShapeAnimations | ShapeExplosion
+  path: remotion-scenes/src/scenes/ShapeAnimations/ShapeExplosion.tsx
+  hex:0 props: tags:
+  desc: ShapeExplosion - 爆発するシェイプ 
+@@ remotion-scenes | ShapeAnimations | ShapeHelix
+  path: remotion-scenes/src/scenes/ShapeAnimations/ShapeHelix.tsx
+  hex:0 props: tags:
+  desc: ShapeHelix - DNA風らせん構造 
+@@ remotion-scenes | ShapeAnimations | ShapeHexGrid
+  path: remotion-scenes/src/scenes/ShapeAnimations/ShapeHexGrid.tsx
+  hex:0 props: tags:
+  desc: ShapeHexGrid - 六角形グリッド - ハニカム構造 
+@@ remotion-scenes | ShapeAnimations | ShapeMandala
+  path: remotion-scenes/src/scenes/ShapeAnimations/ShapeMandala.tsx
+  hex:0 props: tags:
+  desc: ShapeMandala - 幾何学パターン - マンダラ風 
+@@ remotion-scenes | ShapeAnimations | ShapeMorphing
+  path: remotion-scenes/src/scenes/ShapeAnimations/ShapeMorphing.tsx
+  hex:0 props: tags:
+  desc: ShapeMorphing - モーフィングシェイプ - 形が変化 
+@@ remotion-scenes | ShapeAnimations | ShapeParticleField
+  path: remotion-scenes/src/scenes/ShapeAnimations/ShapeParticleField.tsx
+  hex:0 props: tags:
+  desc: ShapeParticleField - パーティクルフィールド - 浮遊する点 
+@@ remotion-scenes | ShapeAnimations | ShapeRipples
+  path: remotion-scenes/src/scenes/ShapeAnimations/ShapeRipples.tsx
+  hex:0 props: tags:
+  desc: ShapeRipples - 波紋エフェクト - 水面の波紋 
+@@ remotion-scenes | ShapeAnimations | ShapeSpinningRings
+  path: remotion-scenes/src/scenes/ShapeAnimations/ShapeSpinningRings.tsx
+  hex:0 props: tags:
+  desc: ShapeSpinningRings - 回転する円環 - ローディング風 
+@@ remotion-scenes | TextAnimations | Text3DFlip
+  path: remotion-scenes/src/scenes/TextAnimations/Text3DFlip.tsx
+  hex:0 props: tags:
+  desc: Text3DFlip - 3Dフリップテキスト - Y軸回転で登場 
+@@ remotion-scenes | TextAnimations | TextCounter
+  path: remotion-scenes/src/scenes/TextAnimations/TextCounter.tsx
+  hex:0 props: tags:
+  desc: TextCounter - カウンターテキスト - 数字がカウントアップ 
+@@ remotion-scenes | TextAnimations | TextExplode
+  path: remotion-scenes/src/scenes/TextAnimations/TextExplode.tsx
+  hex:0 props: tags:
+  desc: TextExplode - 爆発テキスト - 中心から文字が散らばる 
+@@ remotion-scenes | TextAnimations | TextGlitch
+  path: remotion-scenes/src/scenes/TextAnimations/TextGlitch.tsx
+  hex:0 props: tags:
+  desc: TextGlitch - グリッチテキスト - デジタルグリッチ効果 
+@@ remotion-scenes | TextAnimations | TextGradient
+  path: remotion-scenes/src/scenes/TextAnimations/TextGradient.tsx
+  hex:0 props: tags:
+  desc: TextGradient - グラデーションテキスト - 動くグラデーション 
+@@ remotion-scenes | TextAnimations | TextKinetic
+  path: remotion-scenes/src/scenes/TextAnimations/TextKinetic.tsx
+  hex:0 props: tags:
+  desc: TextKinetic - キネティックタイポグラフィ - 文字が踊る 
+@@ remotion-scenes | TextAnimations | TextMaskReveal
+  path: remotion-scenes/src/scenes/TextAnimations/TextMaskReveal.tsx
+  hex:0 props: tags:
+  desc: TextMaskReveal - マスクリビールテキスト - マスクで1文字ずつ表示 
+@@ remotion-scenes | TextAnimations | TextNeon
+  path: remotion-scenes/src/scenes/TextAnimations/TextNeon.tsx
+  hex:0 props: tags:
+  desc: TextNeon - ネオンテキスト - グロウ効果 
+@@ remotion-scenes | TextAnimations | TextScramble
+  path: remotion-scenes/src/scenes/TextAnimations/TextScramble.tsx
+  hex:0 props: tags:
+  desc: TextScramble - スクランブルテキスト - ランダム文字から確定 
+@@ remotion-scenes | TextAnimations | TextSplit
+  path: remotion-scenes/src/scenes/TextAnimations/TextSplit.tsx
+  hex:0 props: tags:
+  desc: TextSplit - スプリットテキスト - 上下に分割して登場 
+@@ remotion-scenes | TextAnimations | TextTypewriter
+  path: remotion-scenes/src/scenes/TextAnimations/TextTypewriter.tsx
+  hex:3 props: tags:
+  desc: TextTypewriter - タイプライターテキスト - カーソル付き 
+@@ remotion-scenes | TextAnimations | TextWave
+  path: remotion-scenes/src/scenes/TextAnimations/TextWave.tsx
+  hex:0 props: tags:
+  desc: TextWave - 波形テキスト - 文字が波のように動く 
+@@ remotion-scenes | ThemeAnimations | Theme3DGlass
+  path: remotion-scenes/src/scenes/ThemeAnimations/Theme3DGlass.tsx
+  hex:3 props: tags:
+  desc: Theme3DGlass - 3D Glass - 液体ガラス効果（透明感と流動性） 
+@@ remotion-scenes | ThemeAnimations | Theme3DGlassThreeJS
+  path: remotion-scenes/src/scenes/ThemeAnimations/Theme3DGlassThreeJS.tsx
+  hex:14 props: tags:
+  desc: Theme3DGlassThreeJS - Three.js 3D Glass - 本格的な3Dガラス（Three.js使用） MeshTransmissionMaterial使用 
+@@ remotion-scenes | ThemeAnimations | ThemeArtDeco
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeArtDeco.tsx
+  hex:12 props: tags:
+  desc: ThemeArtDeco - Art Deco - アールデコ 
+@@ remotion-scenes | ThemeAnimations | ThemeBauhaus
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeBauhaus.tsx
+  hex:4 props: tags:
+  desc: ThemeBauhaus - Bauhaus - バウハウス 
+@@ remotion-scenes | ThemeAnimations | ThemeBoho
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeBoho.tsx
+  hex:10 props: tags:
+  desc: ThemeBoho - ボーホー/ボヘミアン - 暖色、パターン 
+@@ remotion-scenes | ThemeAnimations | ThemeBrutalistWeb
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeBrutalistWeb.tsx
+  hex:2 props: tags:
+  desc: ThemeBrutalistWeb - Brutalist Web - ブルータリストウェブ 
+@@ remotion-scenes | ThemeAnimations | ThemeCosmic
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeCosmic.tsx
+  hex:5 props: tags:
+  desc: ThemeCosmic - Cosmic/Space - 宇宙 
+@@ remotion-scenes | ThemeAnimations | ThemeCyberpunk
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeCyberpunk.tsx
+  hex:11 props: tags:
+  desc: ThemeCyberpunk - サイバーパンク - ネオン、グリッチ 
+@@ remotion-scenes | ThemeAnimations | ThemeDarkMode
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeDarkMode.tsx
+  hex:7 props: tags:
+  desc: ThemeDarkMode - ダークモード - 深い黒、微妙なグラデ 
+@@ remotion-scenes | ThemeAnimations | ThemeDuotone
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeDuotone.tsx
+  hex:4 props: tags:
+  desc: ThemeDuotone - Duotone - デュオトーン 
+@@ remotion-scenes | ThemeAnimations | ThemeGeometricAbstract
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeGeometricAbstract.tsx
+  hex:8 props: tags:
+  desc: ThemeGeometricAbstract - Geometric Abstraction - 幾何学抽象 
+@@ remotion-scenes | ThemeAnimations | ThemeGlassmorphism
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeGlassmorphism.tsx
+  hex:5 props: tags:
+  desc: ThemeGlassmorphism - グラスモーフィズム - 半透明、ブラー 
+@@ remotion-scenes | ThemeAnimations | ThemeGradient
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeGradient.tsx
+  hex:5 props: tags:
+  desc: ThemeGradient - グラデーション - カラフルなグラデ 
+@@ remotion-scenes | ThemeAnimations | ThemeHolographic
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeHolographic.tsx
+  hex:8 props: tags:
+  desc: ThemeHolographic - Holographic - ホログラフィック 
+@@ remotion-scenes | ThemeAnimations | ThemeIndustrial
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeIndustrial.tsx
+  hex:12 props: tags:
+  desc: ThemeIndustrial - Industrial - 工業的 
+@@ remotion-scenes | ThemeAnimations | ThemeIsometric
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeIsometric.tsx
+  hex:3 props: tags:
+  desc: ThemeIsometric - 3D/イソメトリック 
+@@ remotion-scenes | ThemeAnimations | ThemeJapanese
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeJapanese.tsx
+  hex:5 props: tags:
+  desc: ThemeJapanese - 和風/ジャパニーズ - 余白、縦書き 
+@@ remotion-scenes | ThemeAnimations | ThemeLuxury
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeLuxury.tsx
+  hex:7 props: tags:
+  desc: ThemeLuxury - ラグジュアリー - ゴールド、高級感 
+@@ remotion-scenes | ThemeAnimations | ThemeMemphis
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeMemphis.tsx
+  hex:8 props: tags:
+  desc: ThemeMemphis - Memphis - メンフィスデザイン 
+@@ remotion-scenes | ThemeAnimations | ThemeMinimalist
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeMinimalist.tsx
+  hex:0 props: tags:
+  desc: ThemeMinimalist - ミニマリスト - 極限のシンプル 
+@@ remotion-scenes | ThemeAnimations | ThemeMonochrome
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeMonochrome.tsx
+  hex:0 props: tags:
+  desc: ThemeMonochrome - モノクローム - 白黒の美学 
+@@ remotion-scenes | ThemeAnimations | ThemeNatural
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeNatural.tsx
+  hex:8 props: tags:
+  desc: ThemeNatural - ナチュラル/オーガニック - 自然、アースカラー 
+@@ remotion-scenes | ThemeAnimations | ThemeNeobrutalism
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeNeobrutalism.tsx
+  hex:9 props: tags:
+  desc: ThemeNeobrutalism - ネオブルタリズム - 太い枠線、原色、影 
+@@ remotion-scenes | ThemeAnimations | ThemeNeon
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeNeon.tsx
+  hex:18 props: tags:
+  desc: ThemeNeon - Neon - ネオン 
+@@ remotion-scenes | ThemeAnimations | ThemeNeumorphism
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeNeumorphism.tsx
+  hex:10 props: tags:
+  desc: ThemeNeumorphism - ニューモーフィズム - ソフトな凹凸 
+@@ remotion-scenes | ThemeAnimations | ThemeOrganic
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeOrganic.tsx
+  hex:5 props: tags:
+  desc: ThemeOrganic - Organic - オーガニック/流動的 
+@@ remotion-scenes | ThemeAnimations | ThemePaperCut
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemePaperCut.tsx
+  hex:5 props: tags:
+  desc: ThemePaperCut - Paper Cut - ペーパーカット 
+@@ remotion-scenes | ThemeAnimations | ThemePop
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemePop.tsx
+  hex:6 props: tags:
+  desc: ThemePop - ポップ/カラフル - 鮮やかな色 
+@@ remotion-scenes | ThemeAnimations | ThemeRetro
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeRetro.tsx
+  hex:7 props: tags:
+  desc: ThemeRetro - レトロ/ヴィンテージ - セピア、ノイズ 
+@@ remotion-scenes | ThemeAnimations | ThemeSwiss
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeSwiss.tsx
+  hex:4 props: tags:
+  desc: ThemeSwiss - Swiss/International - スイスデザイン 
+@@ remotion-scenes | ThemeAnimations | ThemeTech
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeTech.tsx
+  hex:2 props: tags:
+  desc: ThemeTech - テック/スタートアップ - モダン、クリーン 
+@@ remotion-scenes | ThemeAnimations | ThemeWatercolor
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeWatercolor.tsx
+  hex:1 props: tags:
+  desc: ThemeWatercolor - Watercolor - 水彩 
+@@ remotion-scenes | ThemeAnimations | ThemeY2K
+  path: remotion-scenes/src/scenes/ThemeAnimations/ThemeY2K.tsx
+  hex:11 props: tags:
+  desc: ThemeY2K - Y2K / Millennium - 2000年代初頭のグロッシー&メタリック 
+@@ remotion-scenes | TransitionAnimations | TransitionBlinds
+  path: remotion-scenes/src/scenes/TransitionAnimations/TransitionBlinds.tsx
+  hex:0 props: tags:
+  desc: TransitionBlinds - ブラインドトランジション - 縦ブラインド 
+@@ remotion-scenes | TransitionAnimations | TransitionBoxReveal
+  path: remotion-scenes/src/scenes/TransitionAnimations/TransitionBoxReveal.tsx
+  hex:0 props: tags:
+  desc: TransitionBoxReveal - ボックスリビール - グリッド状に表示 
+@@ remotion-scenes | TransitionAnimations | TransitionCircleWipe
+  path: remotion-scenes/src/scenes/TransitionAnimations/TransitionCircleWipe.tsx
+  hex:0 props: tags:
+  desc: TransitionCircleWipe - サークルワイプ - 円形に広がる 
+@@ remotion-scenes | TransitionAnimations | TransitionDiagonalSlice
+  path: remotion-scenes/src/scenes/TransitionAnimations/TransitionDiagonalSlice.tsx
+  hex:0 props: tags:
+  desc: TransitionDiagonalSlice - 斜めスライス - 斜線で切り替え 
+@@ remotion-scenes | TransitionAnimations | TransitionFlash
+  path: remotion-scenes/src/scenes/TransitionAnimations/TransitionFlash.tsx
+  hex:0 props: tags:
+  desc: TransitionFlash - フラッシュトランジション 
+@@ remotion-scenes | TransitionAnimations | TransitionGlitch
+  path: remotion-scenes/src/scenes/TransitionAnimations/TransitionGlitch.tsx
+  hex:0 props: tags:
+  desc: TransitionGlitch - グリッチトランジション 
+@@ remotion-scenes | TransitionAnimations | TransitionLineSweep
+  path: remotion-scenes/src/scenes/TransitionAnimations/TransitionLineSweep.tsx
+  hex:0 props: tags:
+  desc: TransitionLineSweep - ラインスイープ - 複数の線が横切る 
+@@ remotion-scenes | TransitionAnimations | TransitionLiquidMorph
+  path: remotion-scenes/src/scenes/TransitionAnimations/TransitionLiquidMorph.tsx
+  hex:0 props: tags:
+  desc: TransitionLiquidMorph - リキッドモーフ - 液体状に変形 
+@@ remotion-scenes | TransitionAnimations | TransitionShutter
+  path: remotion-scenes/src/scenes/TransitionAnimations/TransitionShutter.tsx
+  hex:0 props: tags:
+  desc: TransitionShutter - シャッタートランジション - カメラシャッター風 
+@@ remotion-scenes | TransitionAnimations | TransitionZoomBlur
+  path: remotion-scenes/src/scenes/TransitionAnimations/TransitionZoomBlur.tsx
+  hex:0 props: tags:
+  desc: TransitionZoomBlur - ズームブラートランジション 
+@@ remotion-scenes | UIAnimations | UIButton
+  path: remotion-scenes/src/scenes/UIAnimations/UIButton.tsx
+  hex:0 props: tags:
+  desc: UIButton - ボタンアニメーション - ホバー&クリック 
+@@ remotion-scenes | UIAnimations | UICard
+  path: remotion-scenes/src/scenes/UIAnimations/UICard.tsx
+  hex:0 props: tags:
+  desc: UICard - カードアニメーション - ホバーエフェクト 
+@@ remotion-scenes | UIAnimations | UIDropdown
+  path: remotion-scenes/src/scenes/UIAnimations/UIDropdown.tsx
+  hex:0 props: tags:
+  desc: UIDropdown - ドロップダウンメニュー 
+@@ remotion-scenes | UIAnimations | UIForm
+  path: remotion-scenes/src/scenes/UIAnimations/UIForm.tsx
+  hex:0 props: tags:
+  desc: UIForm - 入力フォーム 
+@@ remotion-scenes | UIAnimations | UILoading
+  path: remotion-scenes/src/scenes/UIAnimations/UILoading.tsx
+  hex:0 props: tags:
+  desc: UILoading - ローディングアニメーション 
+@@ remotion-scenes | UIAnimations | UIModal
+  path: remotion-scenes/src/scenes/UIAnimations/UIModal.tsx
+  hex:0 props: tags:
+  desc: UIModal - モーダルアニメーション 
+@@ remotion-scenes | UIAnimations | UINavigation
+  path: remotion-scenes/src/scenes/UIAnimations/UINavigation.tsx
+  hex:0 props: tags:
+  desc: UINavigation - ナビゲーションメニュー 
+@@ remotion-scenes | UIAnimations | UITabs
+  path: remotion-scenes/src/scenes/UIAnimations/UITabs.tsx
+  hex:0 props: tags:
+  desc: UITabs - タブアニメーション 
+@@ remotion-scenes | UIAnimations | UIToast
+  path: remotion-scenes/src/scenes/UIAnimations/UIToast.tsx
+  hex:0 props: tags:
+  desc: UIToast - 通知アニメーション - トースト 
+@@ remotion-scenes | UIAnimations | UIToggle
+  path: remotion-scenes/src/scenes/UIAnimations/UIToggle.tsx
+  hex:0 props: tags:
+  desc: UIToggle - スイッチ/トグル 

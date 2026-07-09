@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="448.549" height="480.064" viewBox="2066.170 3125.790 448.549 480.064"><defs id="defs1"><clipPath clipPathUnits="userSpaceOnUse" id="clipPath4">
+      <path d="M -2384.1568,2286.7354 H -0.21670001 V -1083.6547 H -2384.1568 Z" id="path4" />
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath6">
+      <path d="M -2384.0266,1933.815 H -0.086575 v -3370.39 H -2384.0266 Z" id="path6" />
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath8">
+      <path d="M -2384.1847,2520.3537 H -0.24460001 V -850.0364 H -2384.1847 Z" id="path8" />
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath10">
+      <path d="M -1378.8652,3371.3417 H 1005.0749 V 0.95157502 h -2383.9401 z" id="path10" />
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath12">
+      <path d="M -2383.8391,1819.185 H 0.100925 v -3370.39 H -2383.8391 Z" id="path12" />
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath14">
+      <path d="M -2384.2639,1767.3618 H -0.32387501 V -1603.0283 H -2384.2639 Z" id="path14" />
+    </clipPath>
+  </defs><g id="object"><path id="path33" d="m 0,0 c 0.727,-8.113 0.822,-22.562 3.489,-36.519 9.001,-47.113 40.384,-74.779 84.39,-75.645 46.937,-0.925 73.631,21.58 86.431,71.621 7.911,30.927 5.576,61.413 -2.931,91.461 -10.004,35.336 -38.59,58.945 -71.307,60.803 C 55.478,114.254 27.074,97.466 10.404,59.638 2.838,42.468 1.586,24.383 0,0 m 88.162,174.984 c 81.1,-1.043 134.179,-42.094 154.439,-113.406 20.755,-73.054 13.911,-144.188 -46.718,-197.75 -51.809,-45.77 -113.918,-50.019 -176.215,-23.62 -63.258,26.807 -89.277,81.145 -93.417,146.151 -5.971,93.748 45.426,167.158 126.613,184.506 11.533,2.464 23.521,2.799 35.298,4.119" style="fill:#9e998f;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(1.3333333,0,0,-1.3333333,2171.1292,3365.1052)" />
+      </g></svg>

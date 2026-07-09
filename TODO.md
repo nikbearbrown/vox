@@ -49,6 +49,15 @@
   and raster→SVG quality vs the vtracer sandwich. Only write into doctrine
   if it beats the sandwich on flat art.
 
+## Bear's Cubs (new, aspects/kids/)
+- [ ] First episode end-to-end ("the color red", band 1-3) — geoplate visuals,
+  mascot host composited from bearbrown/, Gate K → audio → compile.
+- [ ] Record/choose the ONE series jingle (<15s, reused verbatim forever).
+- [ ] Kid-voice settings: pick warm slow tts_voice_settings defaults (speed,
+  stability) for the host and bake them into the episode template.
+- [ ] Mascot host beats: define the compositing recipe (bearbrown clip +
+  geoplate ground) as a COMPOSITE shot preset.
+
 ## Housekeeping
 - [ ] Reallocation reels still live in `unreal-reels/reels/` — when they move
   to `the-reallocation-engine/youtube/`, re-point the Watch open commands in

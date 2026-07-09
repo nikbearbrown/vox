@@ -5,3 +5,15 @@ __pycache__/
 *.pyc
 media/videos/
 replace_log.md
+
+# --- remotion-pass lane ---
+node_modules/
+out/
+# raw template quarry stays local; remotion/_bench/ (curated) IS committed
+remotion/onda/
+remotion/remocn/
+remotion/remotion-scenes/
+remotion/remotion-templates/
+remotion/remotion-bits/
+remotion/remotion-ui/
+remotion/clippkit/

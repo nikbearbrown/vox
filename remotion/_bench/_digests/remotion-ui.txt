@@ -1,0 +1,96 @@
+@@ remotion-ui | dataviz | AnimatedNumber
+  path: remotion-ui/packages/cli/templates/components/dataviz/AnimatedNumber.tsx
+  hex:0 props:className,currency,decimals,duration,format,locale,prefix,startAt,style,suffix,value, tags:
+  desc: 
+@@ remotion-ui | dataviz | MetricBlock
+  path: remotion-ui/packages/cli/templates/components/dataviz/MetricBlock.tsx
+  hex:3 props:animationStyle,backgroundColor,className,columns,highlightColor,layout,metrics,staggerDelay,startAt,style,textColor, tags:
+  desc: 
+@@ remotion-ui | dataviz | ComparisonCard
+  path: remotion-ui/packages/cli/templates/components/dataviz/ComparisonCard.tsx
+  hex:6 props:className,left,right,startAt,style,vsLabel, tags:
+  desc: 
+@@ remotion-ui | dataviz | DataCard
+  path: remotion-ui/packages/cli/templates/components/dataviz/DataCard.tsx
+  hex:6 props:accentColor,backgroundColor,className,decimals,duration,format,prefix,startAt,style,suffix,textColor,title,trend,trendValue,unit,value, tags:
+  desc: 
+@@ remotion-ui | dataviz | FlowDiagram
+  path: remotion-ui/packages/cli/templates/components/dataviz/FlowDiagram.tsx
+  hex:9 props:animationDuration,className,connections,height,nodeHeight,nodeWidth,nodes,startAt,style,width, tags:
+  desc: 
+@@ remotion-ui | root | AudioPlayer
+  path: remotion-ui/packages/cli/templates/components/AudioPlayer.tsx
+  hex:0 props:endAt,fadeInDuration,fadeOutDuration,loop,playbackRate,src,startFrom,volume, tags:
+  desc: 
+@@ remotion-ui | root | PieChart
+  path: remotion-ui/packages/cli/templates/components/PieChart.tsx
+  hex:1 props:animationDuration,className,data,innerRadius,showLabels,showPercentages,size,startAt, tags:
+  desc: 
+@@ remotion-ui | root | InstagramPost
+  path: remotion-ui/packages/cli/templates/components/InstagramPost.tsx
+  hex:7 props:animateIn,avatar,caption,className,image,likes,startAt,timestamp,username,verified, tags:
+  desc: 
+@@ remotion-ui | root | TweetEmbed
+  path: remotion-ui/packages/cli/templates/components/TweetEmbed.tsx
+  hex:15 props:animateIn,avatar,className,content,handle,likes,replies,retweets,startAt,timestamp,username,verified, tags:
+  desc: 
+@@ remotion-ui | audio | WaveformVisualizer
+  path: remotion-ui/packages/cli/templates/components/audio/WaveformVisualizer.tsx
+  hex:1 props:animated,animationStyle,audioSrc,backgroundColor,barCount,barGap,barRadius,barWidth,className,color,frequencyBands,height,mirror,orientation,progressColor,showProgress,smoothing,st tags:
+  desc: 
+@@ remotion-ui | audio | AudioSequence
+  path: remotion-ui/packages/cli/templates/components/audio/AudioSequence.tsx
+  hex:0 props:children,crossfadeDuration,masterVolume,onSegmentEnd,onSegmentStart,segments, tags:
+  desc: 
+@@ remotion-ui | audio | TTSProvider
+  path: remotion-ui/packages/cli/templates/components/audio/TTSProvider.tsx
+  hex:0 props:children,config, tags:
+  desc: 
+@@ remotion-ui | audio | CaptionSync
+  path: remotion-ui/packages/cli/templates/components/audio/CaptionSync.tsx
+  hex:1 props:animation,animationDuration,backgroundColor,borderRadius,captions,className,fontFamily,fontSize,maxWidth,padding,position,renderCaption,showSpeaker,speakerStyle,style,textColor,wor tags:
+  desc: 
+@@ remotion-ui | root | ParticleEffect
+  path: remotion-ui/packages/cli/templates/components/ParticleEffect.tsx
+  hex:3 props:className,colors,count,emitFrom,fadeOut,gravity,sizeRange,speedRange,spread,wind, tags:
+  desc: 
+@@ remotion-ui | root | LoadingSpinner
+  path: remotion-ui/packages/cli/templates/components/LoadingSpinner.tsx
+  hex:1 props:className,color,size,speed,strokeWidth,variant, tags:
+  desc: 
+@@ remotion-ui | root | Character
+  path: remotion-ui/packages/cli/templates/components/Character.tsx
+  hex:16 props:animateIn,className,emotion,persona,pose,position,scale,startAt, tags:
+  desc: 
+@@ remotion-ui | text | TextHighlight
+  path: remotion-ui/packages/cli/templates/components/text/TextHighlight.tsx
+  hex:1 props:animationDelay,animationDuration,className,highlightColor,highlightPattern,highlightStyle,startAt,style,text, tags:
+  desc: 
+@@ remotion-ui | text | WordStagger
+  path: remotion-ui/packages/cli/templates/components/text/WordStagger.tsx
+  hex:0 props:animation,className,duration,separator,staggerDelay,startAt,style,text,wordStyle, tags:
+  desc: 
+@@ remotion-ui | text | TypeWriter
+  path: remotion-ui/packages/cli/templates/components/text/TypeWriter.tsx
+  hex:0 props:className,cursor,cursorBlinkSpeed,cursorStyle,sound,soundVolume,speed,startAt,style,text, tags:
+  desc: 
+@@ remotion-ui | text | TextGlitch
+  path: remotion-ui/packages/cli/templates/components/text/TextGlitch.tsx
+  hex:6 props:className,colors,glitchDuration,intensity,startAt,style,text,textStyle, tags:
+  desc: 
+@@ remotion-ui | transitions | CrossFade
+  path: remotion-ui/packages/cli/templates/components/transitions/CrossFade.tsx
+  hex:0 props:className,durationInFrames,from,startAt,style,to, tags:
+  desc: 
+@@ remotion-ui | transitions | DipToColor
+  path: remotion-ui/packages/cli/templates/components/transitions/DipToColor.tsx
+  hex:1 props:className,color,dipDuration,durationInFrames,from,startAt,style,to, tags:
+  desc: 
+@@ remotion-ui | root | LineChart
+  path: remotion-ui/packages/cli/templates/components/LineChart.tsx
+  hex:6 props:animationDuration,className,data,fillColor,height,showDots,showGrid,showLabels,startAt,strokeColor,strokeWidth,width, tags:
+  desc: 
+@@ remotion-ui | root | BarChart
+  path: remotion-ui/packages/cli/templates/components/BarChart.tsx
+  hex:7 props:animationType,barColor,className,data,height,showGrid,showValues,staggerDelay,startAt,width, tags:
+  desc: 

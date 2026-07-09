@@ -1,0 +1,324 @@
+@@ remotion-templates | flat | animated-list
+  path: remotion-templates/templates/animated-list.tsx
+  hex:3 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | animated-text
+  path: remotion-templates/templates/animated-text.tsx
+  hex:0 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | area-chart
+  path: remotion-templates/templates/area-chart.tsx
+  hex:6 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | blinds-transition
+  path: remotion-templates/templates/blinds-transition.tsx
+  hex:11 props: tags:
+  desc: 
+@@ remotion-templates | flat | bokeh-circles
+  path: remotion-templates/templates/bokeh-circles.tsx
+  hex:1 props: tags:
+  desc: 
+@@ remotion-templates | flat | bounce-text
+  path: remotion-templates/templates/bounce-text.tsx
+  hex:2 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | bubble-pop-text
+  path: remotion-templates/templates/bubble-pop-text.tsx
+  hex:2 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | camera-shake
+  path: remotion-templates/templates/camera-shake.tsx
+  hex:6 props: tags:
+  desc: 
+@@ remotion-templates | flat | card-flip
+  path: remotion-templates/templates/card-flip.tsx
+  hex:4 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | chapter-title
+  path: remotion-templates/templates/chapter-title.tsx
+  hex:6 props: tags:
+  desc: 
+@@ remotion-templates | flat | chart-animation
+  path: remotion-templates/templates/chart-animation.tsx
+  hex:12 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | cinematic-title-intro
+  path: remotion-templates/templates/cinematic-title-intro.tsx
+  hex:4 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | circular-progress
+  path: remotion-templates/templates/circular-progress.tsx
+  hex:3 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | clock-wipe
+  path: remotion-templates/templates/clock-wipe.tsx
+  hex:11 props: tags:
+  desc: 
+@@ remotion-templates | flat | comparison-chart
+  path: remotion-templates/templates/comparison-chart.tsx
+  hex:6 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | countdown-intro
+  path: remotion-templates/templates/countdown-intro.tsx
+  hex:4 props: tags:
+  desc: 
+@@ remotion-templates | flat | countdown-timer
+  path: remotion-templates/templates/countdown-timer.tsx
+  hex:3 props: tags:
+  desc: --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing videos! 🎉 
+@@ remotion-templates | flat | credits-roll
+  path: remotion-templates/templates/credits-roll.tsx
+  hex:4 props: tags:
+  desc: 
+@@ remotion-templates | flat | cross-dissolve
+  path: remotion-templates/templates/cross-dissolve.tsx
+  hex:7 props: tags:
+  desc: 
+@@ remotion-templates | flat | donut-chart
+  path: remotion-templates/templates/donut-chart.tsx
+  hex:6 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | end-card
+  path: remotion-templates/templates/end-card.tsx
+  hex:8 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | fade-through-black
+  path: remotion-templates/templates/fade-through-black.tsx
+  hex:8 props: tags:
+  desc: 
+@@ remotion-templates | flat | film-burn
+  path: remotion-templates/templates/film-burn.tsx
+  hex:2 props: tags:
+  desc: 
+@@ remotion-templates | flat | floating-bubble-text
+  path: remotion-templates/templates/floating-bubble-text.tsx
+  hex:2 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | gallery-grid
+  path: remotion-templates/templates/gallery-grid.tsx
+  hex:13 props: tags:
+  desc: 
+@@ remotion-templates | flat | geometric-patterns
+  path: remotion-templates/templates/geometric-patterns.tsx
+  hex:2 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | glitch-text
+  path: remotion-templates/templates/glitch-text.tsx
+  hex:0 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | gradient-shift
+  path: remotion-templates/templates/gradient-shift.tsx
+  hex:4 props: tags:
+  desc: 
+@@ remotion-templates | flat | grid-pulse
+  path: remotion-templates/templates/grid-pulse.tsx
+  hex:2 props: tags:
+  desc: 
+@@ remotion-templates | flat | image-carousel
+  path: remotion-templates/templates/image-carousel.tsx
+  hex:7 props: tags:
+  desc: 
+@@ remotion-templates | flat | image-comparison-slider
+  path: remotion-templates/templates/image-comparison-slider.tsx
+  hex:9 props: tags:
+  desc: 
+@@ remotion-templates | flat | image-zoom-reveal
+  path: remotion-templates/templates/image-zoom-reveal.tsx
+  hex:5 props: tags:
+  desc: 
+@@ remotion-templates | flat | iris-transition
+  path: remotion-templates/templates/iris-transition.tsx
+  hex:11 props: tags:
+  desc: 
+@@ remotion-templates | flat | ken-burns
+  path: remotion-templates/templates/ken-burns.tsx
+  hex:0 props:duration,imageUrl,scale,translateX,translateY, tags:
+  desc: 
+@@ remotion-templates | flat | letterbox-reveal
+  path: remotion-templates/templates/letterbox-reveal.tsx
+  hex:4 props: tags:
+  desc: 
+@@ remotion-templates | flat | line-chart
+  path: remotion-templates/templates/line-chart.tsx
+  hex:4 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | liquid-wave
+  path: remotion-templates/templates/liquid-wave.tsx
+  hex:3 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | logo-blur-reveal
+  path: remotion-templates/templates/logo-blur-reveal.tsx
+  hex:3 props: tags:
+  desc: 
+@@ remotion-templates | flat | logo-bounce-drop
+  path: remotion-templates/templates/logo-bounce-drop.tsx
+  hex:3 props: tags:
+  desc: 
+@@ remotion-templates | flat | logo-fade-reveal
+  path: remotion-templates/templates/logo-fade-reveal.tsx
+  hex:4 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | logo-glitch-reveal
+  path: remotion-templates/templates/logo-glitch-reveal.tsx
+  hex:4 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | logo-scale-rotate
+  path: remotion-templates/templates/logo-scale-rotate.tsx
+  hex:3 props: tags:
+  desc: 
+@@ remotion-templates | flat | logo-spin-reveal
+  path: remotion-templates/templates/logo-spin-reveal.tsx
+  hex:4 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | logo-split-reveal
+  path: remotion-templates/templates/logo-split-reveal.tsx
+  hex:5 props: tags:
+  desc: 
+@@ remotion-templates | flat | logo-stroke-draw
+  path: remotion-templates/templates/logo-stroke-draw.tsx
+  hex:5 props: tags:
+  desc: 
+@@ remotion-templates | flat | logo-typewriter
+  path: remotion-templates/templates/logo-typewriter.tsx
+  hex:4 props: tags:
+  desc: 
+@@ remotion-templates | flat | lower-third
+  path: remotion-templates/templates/lower-third.tsx
+  hex:5 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | masonry-gallery
+  path: remotion-templates/templates/masonry-gallery.tsx
+  hex:13 props: tags:
+  desc: 
+@@ remotion-templates | flat | matrix-rain
+  path: remotion-templates/templates/matrix-rain.tsx
+  hex:2 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | morph-transition
+  path: remotion-templates/templates/morph-transition.tsx
+  hex:7 props: tags:
+  desc: 
+@@ remotion-templates | flat | noise-grain
+  path: remotion-templates/templates/noise-grain.tsx
+  hex:4 props: tags:
+  desc: 
+@@ remotion-templates | flat | notification-pop
+  path: remotion-templates/templates/notification-pop.tsx
+  hex:7 props: tags:
+  desc: --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing videos! 🎉 
+@@ remotion-templates | flat | parallax-pan
+  path: remotion-templates/templates/parallax-pan.tsx
+  hex:0 props:direction,duration,imageUrl,scale, tags:
+  desc: 
+@@ remotion-templates | flat | particle-explosion
+  path: remotion-templates/templates/particle-explosion.tsx
+  hex:0 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | photo-stack
+  path: remotion-templates/templates/photo-stack.tsx
+  hex:7 props: tags:
+  desc: 
+@@ remotion-templates | flat | picture-in-picture
+  path: remotion-templates/templates/picture-in-picture.tsx
+  hex:6 props: tags:
+  desc: 
+@@ remotion-templates | flat | pie-chart
+  path: remotion-templates/templates/pie-chart.tsx
+  hex:8 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | pixel-transition
+  path: remotion-templates/templates/pixel-transition.tsx
+  hex:1 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | polaroid-frame
+  path: remotion-templates/templates/polaroid-frame.tsx
+  hex:4 props: tags:
+  desc: 
+@@ remotion-templates | flat | popping-text
+  path: remotion-templates/templates/popping-text.tsx
+  hex:3 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | progress-bars
+  path: remotion-templates/templates/progress-bars.tsx
+  hex:7 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | progress-steps
+  path: remotion-templates/templates/progress-steps.tsx
+  hex:12 props: tags:
+  desc: --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing videos! 🎉 
+@@ remotion-templates | flat | pulsing-text
+  path: remotion-templates/templates/pulsing-text.tsx
+  hex:0 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | push-transition
+  path: remotion-templates/templates/push-transition.tsx
+  hex:11 props: tags:
+  desc: 
+@@ remotion-templates | flat | quote-card
+  path: remotion-templates/templates/quote-card.tsx
+  hex:3 props: tags:
+  desc: 
+@@ remotion-templates | flat | rotating-carousel
+  path: remotion-templates/templates/rotating-carousel.tsx
+  hex:6 props: tags:
+  desc: --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing videos! 🎉 
+@@ remotion-templates | flat | slide-text
+  path: remotion-templates/templates/slide-text.tsx
+  hex:0 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | slide-wipe
+  path: remotion-templates/templates/slide-wipe.tsx
+  hex:8 props: tags:
+  desc: 
+@@ remotion-templates | flat | sound-wave
+  path: remotion-templates/templates/sound-wave.tsx
+  hex:0 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | split-screen
+  path: remotion-templates/templates/split-screen.tsx
+  hex:7 props: tags:
+  desc: 
+@@ remotion-templates | flat | spotlight-reveal
+  path: remotion-templates/templates/spotlight-reveal.tsx
+  hex:8 props: tags:
+  desc: 
+@@ remotion-templates | flat | starfield
+  path: remotion-templates/templates/starfield.tsx
+  hex:1 props: tags:
+  desc: 
+@@ remotion-templates | flat | stat-counter
+  path: remotion-templates/templates/stat-counter.tsx
+  hex:3 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | subscribe-reminder
+  path: remotion-templates/templates/subscribe-reminder.tsx
+  hex:5 props: tags:
+  desc: 
+@@ remotion-templates | flat | text-highlight
+  path: remotion-templates/templates/text-highlight.tsx
+  hex:4 props: tags:
+  desc: --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing videos! 🎉 
+@@ remotion-templates | flat | title-split
+  path: remotion-templates/templates/title-split.tsx
+  hex:1 props: tags:
+  desc: 
+@@ remotion-templates | flat | typewriter-subtitle
+  path: remotion-templates/templates/typewriter-subtitle.tsx
+  hex:1 props: tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ remotion-templates | flat | vignette-pulse
+  path: remotion-templates/templates/vignette-pulse.tsx
+  hex:2 props: tags:
+  desc: 
+@@ remotion-templates | flat | whip-pan
+  path: remotion-templates/templates/whip-pan.tsx
+  hex:11 props: tags:
+  desc: 
+@@ remotion-templates | flat | zoom-pulse
+  path: remotion-templates/templates/zoom-pulse.tsx
+  hex:0 props:duration,imageUrl,maxScale,minScale, tags:
+  desc: 
+@@ remotion-templates | flat | zoom-through
+  path: remotion-templates/templates/zoom-through.tsx
+  hex:5 props: tags:
+  desc: 

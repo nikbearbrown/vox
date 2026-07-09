@@ -1,0 +1,160 @@
+@@ remotion-bits | animated-counter | BasicCounter
+  path: remotion-bits/docs/src/bits/examples/animated-counter/BasicCounter.tsx
+  hex:0 props: tags:tags: ["text", "counter", "numbers"]
+  desc: "Animated counter interpolating between numbers."
+@@ remotion-bits | animated-counter | CounterConfetti
+  path: remotion-bits/docs/src/bits/examples/animated-counter/CounterConfetti.tsx
+  hex:8 props: tags:tags: ["counter", "particles", "confetti", "celebration"]
+  desc: "Counter reaching 1000 with confetti particles bursting from the sides."
+@@ remotion-bits | animated-text | BlurSlideWord
+  path: remotion-bits/docs/src/bits/examples/animated-text/BlurSlideWord.tsx
+  hex:0 props: tags:tags: ["text", "word", "blur", "slide", "stagger"]
+  desc: "Text that fades, unblurs and slides up word by word"
+@@ remotion-bits | animated-text | CharByChar
+  path: remotion-bits/docs/src/bits/examples/animated-text/CharByChar.tsx
+  hex:0 props: tags:tags: ["text", "character", "stagger"]
+  desc: "Text that appears character by character with staggered timing"
+@@ remotion-bits | animated-text | FadeIn
+  path: remotion-bits/docs/src/bits/examples/animated-text/FadeIn.tsx
+  hex:0 props: tags:tags: ["text", "fade", "basic"]
+  desc: "Simple fade-in text animation from transparent to opaque"
+@@ remotion-bits | animated-text | GlitchCycle
+  path: remotion-bits/docs/src/bits/examples/animated-text/GlitchCycle.tsx
+  hex:0 props: tags:tags: ["text", "glitch", "cycle"]
+  desc: "Cycling text with glitch transition effects between words"
+@@ remotion-bits | animated-text | GlitchIn
+  path: remotion-bits/docs/src/bits/examples/animated-text/GlitchIn.tsx
+  hex:0 props: tags:tags: ["text", "glitch", "transition"]
+  desc: "Text effect that glitches into existence from random characters"
+@@ remotion-bits | animated-text | MatrixRain
+  path: remotion-bits/docs/src/bits/examples/animated-text/MatrixRain.tsx
+  hex:1 props: tags:tags: ['text', 'matrix', 'code', 'background']
+  desc: 
+@@ remotion-bits | animated-text | WordByWord
+  path: remotion-bits/docs/src/bits/examples/animated-text/WordByWord.tsx
+  hex:0 props: tags:tags: ["text", "word", "stagger"]
+  desc: "Animated text that appears word by word with staggered timing"
+@@ remotion-bits | code-block | BasicCodeBlock
+  path: remotion-bits/docs/src/bits/examples/code-block/BasicCodeBlock.tsx
+  hex:0 props: tags:tags: ["text", "code", "animation"]
+  desc: "Syntax highlighted code with line-by-line reveal"
+@@ remotion-bits | code-block | TypingCodeBlock
+  path: remotion-bits/docs/src/bits/examples/code-block/TypingCodeBlock.tsx
+  hex:1 props: tags:tags: ["text", "code", "animation", "typing"]
+  desc: "Syntax highlighted code with typing effect"
+@@ remotion-bits | gradient-transition | ConicGradient
+  path: remotion-bits/docs/src/bits/examples/gradient-transition/ConicGradient.tsx
+  hex:4 props: tags:tags: ["background", "gradient", "conic", "rainbow"]
+  desc: "Colorful conic gradient rotation"
+@@ remotion-bits | gradient-transition | LinearGradient
+  path: remotion-bits/docs/src/bits/examples/gradient-transition/LinearGradient.tsx
+  hex:4 props: tags:tags: ["background", "gradient", "linear"]
+  desc: "Smooth transition between linear gradients"
+@@ remotion-bits | gradient-transition | RadialGradient
+  path: remotion-bits/docs/src/bits/examples/gradient-transition/RadialGradient.tsx
+  hex:4 props: tags:tags: ["background", "gradient", "radial"]
+  desc: "Smooth transition between radial gradients"
+@@ remotion-bits | particle-system | Fireflies
+  path: remotion-bits/docs/src/bits/examples/particle-system/Fireflies.tsx
+  hex:2 props: tags:tags: ["particles", "nature", "ambient", "animation"]
+  desc: "Wandering particles with glow effect simulating fireflies"
+@@ remotion-bits | particle-system | ParticlesFountain
+  path: remotion-bits/docs/src/bits/examples/particle-system/ParticlesFountain.tsx
+  hex:2 props: tags:tags: ["particles", "burst", "fountain"]
+  desc: "Bursting fountain particles effect"
+@@ remotion-bits | particle-system | ParticlesGrid
+  path: remotion-bits/docs/src/bits/examples/particle-system/ParticlesGrid.tsx
+  hex:3 props: tags:tags: ["particles", "grid", "snap"]
+  desc: "Particles snapping to a grid"
+@@ remotion-bits | particle-system | ParticlesSnow
+  path: remotion-bits/docs/src/bits/examples/particle-system/ParticlesSnow.tsx
+  hex:1 props: tags:tags: ["particles", "snow", "weather"]
+  desc: "Falling snow particles effect"
+@@ remotion-bits | particle-system | ScrollingColumns
+  path: remotion-bits/docs/src/bits/examples/particle-system/ScrollingColumns.tsx
+  hex:20 props: tags:tags: ["particles", "3d", "scrolling", "columns"]
+  desc: "Four columns of images scrolling with different speeds in a panning 3D scene"
+@@ remotion-bits | scene-3d | 3DBasic
+  path: remotion-bits/docs/src/bits/examples/scene-3d/3DBasic.tsx
+  hex:0 props: tags:tags: ["3d", "camera", "presentation", "transition"]
+  desc: "3D camera transitions between positioned steps, impress.js style"
+@@ remotion-bits | scene-3d | 3DElements
+  path: remotion-bits/docs/src/bits/examples/scene-3d/3DElements.tsx
+  hex:0 props: tags:tags: ["3d", "camera", "presentation", "transition"]
+  desc: "3D Scene allows placing arbitrary elements in 3D space"
+@@ remotion-bits | scene-3d | Carousel
+  path: remotion-bits/docs/src/bits/examples/scene-3d/Carousel.tsx
+  hex:0 props: tags:tags: ["3d", "carousel", "gallery", "animation"]
+  desc: "Rotating carousel of cards in 3D space"
+@@ remotion-bits | scene-3d | CubeNavigation
+  path: remotion-bits/docs/src/bits/examples/scene-3d/CubeNavigation.tsx
+  hex:0 props: tags:tags: ["3d", "cube", "navigation", "camera", "isometric"]
+  desc: "Navigate through faces of a 3D Cube using Scene3D steps"
+@@ remotion-bits | scene-3d | CursorFlyover
+  path: remotion-bits/docs/src/bits/examples/scene-3d/CursorFlyover.tsx
+  hex:1 props: tags:tags: ["3d", "camera", "cursor", "screenshot", "presentation"]
+  desc: "Camera flies over an app screenshot while a cursor highlights different areas"
+@@ remotion-bits | scene-3d | FlyingThroughWords
+  path: remotion-bits/docs/src/bits/examples/scene-3d/FlyingThroughWords.tsx
+  hex:0 props: tags:tags: ["particles", "text", "3d", "flythrough"]
+  desc: "Words spawning and flying past the camera"
+@@ remotion-bits | scene-3d | KenBurns
+  path: remotion-bits/docs/src/bits/examples/scene-3d/KenBurns.tsx
+  hex:0 props: tags:tags: ["scene-3d", "camera", "ken-burns", "motion"]
+  desc: "Slow camera movement over images using Scene3D steps"
+@@ remotion-bits | scene-3d | StepTimingContext
+  path: remotion-bits/docs/src/bits/examples/scene-3d/StepTimingContext.tsx
+  hex:2 props: tags:tags: ["3d", "timing", "animation", "context"]
+  desc: "Demonstrates useMotionTiming context awareness in Scene3D Steps"
+@@ remotion-bits | scene-3d | Terminal3D
+  path: remotion-bits/docs/src/bits/examples/scene-3d/Terminal3D.tsx
+  hex:7 props: tags:tags: ['3d', 'terminal', 'typewriter', 'code']
+  desc: 
+@@ remotion-bits | staggered-motion | CardStack
+  path: remotion-bits/docs/src/bits/examples/staggered-motion/CardStack.tsx
+  hex:2 props: tags:tags: ["3d", "motion", "staggered-motion", "cards"]
+  desc: "A stack of cards that spreads out in 3D space."
+@@ remotion-bits | staggered-motion | EasingsVisualizer
+  path: remotion-bits/docs/src/bits/examples/staggered-motion/EasingsVisualizer.tsx
+  hex:4 props: tags:tags: ["easing", "motion", "staggered-motion"]
+  desc: "Visualizes different easing functions with sliding squares."
+@@ remotion-bits | staggered-motion | FractureReassemble
+  path: remotion-bits/docs/src/bits/examples/staggered-motion/FractureReassemble.tsx
+  hex:0 props: tags:tags: ["motion", "staggered-motion", "fracture", "3d", "transition"]
+  desc: 
+@@ remotion-bits | staggered-motion | GridStagger
+  path: remotion-bits/docs/src/bits/examples/staggered-motion/GridStagger.tsx
+  hex:2 props: tags:tags: ["grid", "motion", "staggered-motion", "scale"]
+  desc: "A grid of elements staggering in from the center using scale and opacity."
+@@ remotion-bits | staggered-motion | ListReveal
+  path: remotion-bits/docs/src/bits/examples/staggered-motion/ListReveal.tsx
+  hex:4 props: tags:tags: ["list", "motion", "staggered-motion", "ui"]
+  desc: "A vertical list of items scaling and finding their place."
+@@ remotion-bits | staggered-motion | MosaicReframe
+  path: remotion-bits/docs/src/bits/examples/staggered-motion/MosaicReframe.tsx
+  hex:1 props: tags:tags: ["motion", "staggered-motion", "mosaic", "grid", "layout"]
+  desc: 
+@@ remotion-bits | staggered-motion | SlideFromLeft
+  path: remotion-bits/docs/src/bits/examples/staggered-motion/SlideFromLeft.tsx
+  hex:0 props: tags:tags: ["text", "slide", "motion"]
+  desc: "Text that slides in from the left with fade-in effect"
+@@ remotion-bits | staggered-motion | StaggeredFadeIn
+  path: remotion-bits/docs/src/bits/examples/staggered-motion/StaggeredFadeIn.tsx
+  hex:7 props: tags:tags: ["motion", "stagger", "fade"]
+  desc: "Elements fading in sequentially"
+@@ remotion-bits | typewriter | BasicTypewriter
+  path: remotion-bits/docs/src/bits/examples/typewriter/BasicTypewriter.tsx
+  hex:0 props: tags:tags: ["text", "typewriter", "basic"]
+  desc: "Simple typing animation with cursor."
+@@ remotion-bits | typewriter | CLISimulation
+  path: remotion-bits/docs/src/bits/examples/typewriter/CLISimulation.tsx
+  hex:5 props: tags:tags: ["text", "typewriter", "cli", "terminal"]
+  desc: "Simulates a command-line interface with user typing and system output."
+@@ remotion-bits | typewriter | MultiTextTypewriter
+  path: remotion-bits/docs/src/bits/examples/typewriter/MultiTextTypewriter.tsx
+  hex:0 props: tags:tags: ["text", "typewriter", "sequence", "loop"]
+  desc: "Typing multiple sentences in sequence with deleting phase."
+@@ remotion-bits | typewriter | VariableSpeedTypewriter
+  path: remotion-bits/docs/src/bits/examples/typewriter/VariableSpeedTypewriter.tsx
+  hex:1 props: tags:tags: ["text", "typewriter", "speed", "errors"]
+  desc: "Advanced typewriter with variable speed curves and error simulation."

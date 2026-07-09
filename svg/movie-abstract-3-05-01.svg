@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="51.588" height="44.580" viewBox="1829.270 1317.800 51.588 44.580"><defs id="defs1"><clipPath clipPathUnits="userSpaceOnUse" id="clipPath104">
+      <path d="M -1176.5968,3356.5086 H 1207.3433 V -13.881475 h -2383.9401 z" id="path104" />
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath108">
+      <path d="M -1147.206,3297.7267 H 1236.7341 V -72.663402 H -1147.206 Z" id="path108" />
+    </clipPath>
+  </defs><g id="object"><path id="path1164" d="m 0,0 h 5.878 c 11.413,-2.727 3.633,-11.852 5.878,-17.635 H 0 Z" style="fill:#5f4a37;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(1.3333333,0,0,-1.3333333,1835.2735,1332.4755)" />
+      <path id="path1165" d="m 0,0 c -2.504,5.697 5.975,15.055 -5.878,17.635 2.58,11.853 11.938,3.374 17.634,5.878 V 17.635 C 3.943,13.708 13.338,4.045 5.878,0 Z" style="fill:#605148;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(1.3333333,0,0,-1.3333333,1850.9487,1355.9881)" />
+      <path id="path1166" d="m 0,0 c 9.231,3.454 -2.979,14.056 5.878,17.635 4.01,0.091 5.97,-1.868 5.878,-5.879 C 13.209,2.466 9.291,-1.453 0,0" style="fill:#5c4433;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(1.3333333,0,0,-1.3333333,1858.7861,1355.9881)" />
+      </g></svg>

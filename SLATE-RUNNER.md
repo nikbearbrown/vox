@@ -164,9 +164,11 @@ place and pulls assets from the toolkit. `reels/` here holds only the example +
 4. **Scenes.** Write `reels/<slug>/vox_scenes.py`: one `class B##_Name(Scene)`
    per GRAPHIC / CARD / DOCUMENT / COMPOSITE beat whose `source` is `own`. STILL
    `ai` beats get NO scene (they compile as slates). Follow the CONVENTIONS below.
-5. **Static pre-flight (free, do this BEFORE audio).** Run the isolated Gate A on
-   every scene (see CONVENTIONS → "isolated check"). Fix until clean. This catches
-   the errors that otherwise waste a render.
+5. **Static pre-flight (free, do this BEFORE audio).** Run BOTH static gates on
+   every scene: the isolated Gate A (see CONVENTIONS → "isolated check") AND
+   Gate W (`python3 tmp/qc-tooling/wcag_margin_check.py <REEL>/vox_scenes.py` —
+   direct, no isolation needed). Fix until both are clean. This catches the
+   errors that otherwise waste a render.
 6. **Audio (GATE 0 — spends credits, pre-approved on `run next`).**
    `python3 scripts/generate_audio.py reels/<slug>` — writes per-beat mp3s +
    `mp3/timings.json` and back-fills `actual_duration_s` into the beat sheet.
@@ -214,6 +216,24 @@ place and pulls assets from the toolkit. `reels/` here holds only the example +
   A `WARN [0 distinct]` on a pure-quote (`_quote_scene`) beat is benign — `vox_run`
   continues past it.
 - **Keep explicit coords inside the frame:** ±7.1 x, ±4.0 y (safe area ±6.3 / ±3.4).
+
+### Gate W (WCAG + margins + overlap) — the independent second static check
+Runs pre-render in `vox_run` (`tmp/qc-tooling/wcag_margin_check.py`). ZERO code
+shared with Gate A — pure AST analysis, no manim import, no mock — so the two
+checks fail independently. Also run it yourself at the Scenes step (no isolated
+copy needed): `python3 tmp/qc-tooling/wcag_margin_check.py <REEL>/vox_scenes.py`
+- **W1 GOLD-as-text = instant ERROR.** Gold is the highlighter fill, never a
+  text color (1.26:1 on cream). Titles included — use INK.
+- **W2 WCAG contrast:** text vs ground below 3.0:1 = ERROR; below 4.5:1 = WARN
+  (text ≥36pt passes at 3.0). Chip glyph-vs-accent contrast is checked too.
+- **W3 margins:** bbox past the frame (±7.1/±4.0) = ERROR; past the safe area
+  (±6.3/±3.4) = WARN.
+- **W4 text-on-text:** overlapping text bboxes (>25% of the smaller = ERROR).
+- **W5 text-on-line** and **W6 white text with no accent box** = WARN.
+- Honesty clause: it resolves explicit coordinates (`move_to`, `to_edge`,
+  `shift`, `.scale()` chains, `np.array`); items placed from loop variables or
+  `next_to` are geometry-unresolved (color rules still apply) — Gate B remains
+  the pixel truth after render. W exists to stop the obvious failures for free.
 
 ### Gate B (pixel layout audit) — only exists after a real render
 - **`TEXT_ON_CURVE` is the usual failure:** a label whose box overlaps a line,

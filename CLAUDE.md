@@ -11,10 +11,27 @@ QC gates, the Manim graphics library, and the outro mascot clips are all here.
 Ignore any other skills, plugins, books, or pipelines; nothing outside this
 folder is needed to build a video.
 
+## Sibling skill: Bear's Cubs (early-childhood, ages 1–5)
+`aspects/kids/SKILL.md` — concept films (colors, shapes, numbers) on the same
+chassis but under developmental-psychology law, validated by **Gate K**
+(`aspects/kids/scripts/kids_gate.py`) BEFORE audio: pacing 4–9s, question →
+silent-pause → confirm, 3–5 varied exemplars + one contrast, one <15s jingle,
+co-viewing close, age-band runtime caps. Episodes: `books/kids/<series>/<slug>/`.
+
+## Sibling lane: the Remotion pass (fill slate beats with motion graphics)
+`aspects/remotion-pass/SKILL.md` — fills **slate beats** (beats with no
+`media/<BID>.mp4` and no `manim/<BID>.mp4`) with a **vox-palette Remotion scene**,
+rendered to `media/<BID>.mp4` (the compiler's top slot; it conforms the duration).
+Template-first from the 367-keeper bench (`remotion/_bench/`, catalog + index),
+create-on-gap, **human-gated promotion** into the proven-core project
+(`aspects/remotion-pass/remotion/`). One-time setup needs **Node.js/npm** (see that
+SKILL.md + the project `README.md`); everything else in this workshop is Python.
+
 ## Your operating manual
 Read **`SLATE-RUNNER.md`** first — it is the complete playbook (the build loop
 and every hard-won convention that keeps the QC gates green). The craft spec is
-**`aspects/explainer/vox-explainer/SKILL.md`** (the one skill this workshop uses).
+**`aspects/explainer/vox-explainer/SKILL.md`** (the Manim/own lane); the Remotion
+lane spec is **`aspects/remotion-pass/SKILL.md`**.
 
 ## Commands
 - `scout <book>` — mine a book's chapters for candidate cards into
@@ -23,6 +40,9 @@ and every hard-won convention that keeps the QC gates green). The craft spec is
 - `run next` — build the top unbuilt card in `reels/QUEUE.md`, stop.
 - `slate cut <card | chapter | concept>` — build that specific thing.
 - `fix <reel>` / `change <reel>: <request>` — repair a gate failure / apply a review note.
+- `remotion pass <reel>` — fill the reel's slate beats that carry a
+  `shot.remotion.pattern` with vox-palette Remotion scenes → `media/<BID>.mp4`
+  (`scripts/vox_remotion.py`; needs Node/npm — see `aspects/remotion-pass/SKILL.md`).
 - `final cut <reel>` — pantry intake, 16:9 master (refuses open slates), AND
   the 9:16 short (drops THE EXAMPLE act) — both into `<reel>/mp4/`. Posting
   to YouTube is a separate pass with its own rules.
@@ -34,11 +54,13 @@ slates until the human fills them. Nothing else bills.
 
 ## Layout
 ```
-scripts/          vox_run.sh · generate_audio.py · vox_compile.py · vox_outro.py · …
+scripts/          vox_run.sh · generate_audio.py · vox_compile.py · vox_outro.py · vox_remotion.py · …
 aspects/scout/    the vox scout (SKILL.md · reference/ · scripts/scan_book.py)
 tmp/qc-tooling/   static_scene_check.py (Gate A) · manim_layout_audit.py (Gate B)
 aspects/explainer/vox-explainer/   SKILL.md · manim/vox_graphics.py (shared components)
-bearbrown/        green-screen mascot clips for the outro law
+aspects/remotion-pass/   SKILL.md · remotion/ (Node project: tokens + proven-core scenes)
+remotion/_bench/  the 367-keeper Remotion quarry — CATALOG.md · SCENE-SELECTION.md · index.json
+bearbrown/        green-screen mascot clips for the outro law (moving to Remotion — see remotion-pass)
 reels/_example-comma-orphan/   a complete worked reel — copy its shape
 reels/QUEUE.md    the approved build list
                   (built reels live WITH their book: ../<book>/youtube/<slug>/ — not here)

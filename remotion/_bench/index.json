@@ -1,0 +1,124 @@
+{
+  "_comment": "Pattern index: scene_type -> ranked candidate starters from the bench, plus the proven-core patterns already built in the vox-remotion project. 'built' scenes render here at the vox palette (trusted). 'candidates' are quarry from _bench/ CATALOG.md — starters, not yet proven in-project. Compiled from CATALOG.md + SCENE-SELECTION.md; grows by promotion.",
+  "version": 1,
+  "built": {
+    "BarChart": {
+      "scene_type": "data-chart",
+      "provenance": "authored (proven core)",
+      "props_schema": ["title", "data[{label,value}]", "accentIndex", "unit"],
+      "palette": "LOCK",
+      "notes": "Staggered bars grow on SPRING_SMOOTH; accentIndex bar earns TEAL. Duration-adaptive."
+    }
+  },
+  "scene_types": {
+    "data-chart": {
+      "built": ["BarChart"],
+      "candidates": [
+        {"repo": "onda", "unit": "line-chart", "palette": "LOCK", "note": "uses --onda-* tokens"},
+        {"repo": "onda", "unit": "pie-reveal", "palette": "LOCK"},
+        {"repo": "remotion-ui", "unit": "LineChart", "palette": "LOCK", "note": "Zod schema, data/style split"},
+        {"repo": "remotion-templates", "unit": "area-chart", "palette": "RESTYLE"},
+        {"repo": "remotion-templates", "unit": "comparison-chart", "palette": "RESTYLE"}
+      ]
+    },
+    "counter": {
+      "built": [],
+      "candidates": [
+        {"repo": "onda", "unit": "count-up", "palette": "LOCK"},
+        {"repo": "remotion-ui", "unit": "AnimatedNumber", "palette": "LOCK", "note": "format: number/currency/percent"},
+        {"repo": "remotion-ui", "unit": "MetricBlock", "palette": "LOCK"},
+        {"repo": "remotion-bits", "unit": "animated-counter/BasicCounter", "palette": "LOCK"},
+        {"repo": "remotion-templates", "unit": "stat-counter", "palette": "RESTYLE"}
+      ]
+    },
+    "text-reveal": {
+      "built": [],
+      "candidates": [
+        {"repo": "onda", "unit": "word-stagger", "palette": "LOCK"},
+        {"repo": "onda", "unit": "blur-reveal", "palette": "LOCK"},
+        {"repo": "remotion-bits", "unit": "animated-text/BlurIn", "palette": "LOCK"},
+        {"repo": "remotion-bits", "unit": "typewriter", "palette": "LOCK"},
+        {"repo": "clippkit", "unit": "typing-text", "palette": "RESTYLE"}
+      ]
+    },
+    "title": {
+      "built": [],
+      "candidates": [
+        {"repo": "onda", "unit": "title-card", "palette": "LOCK"},
+        {"repo": "remotion-templates", "unit": "cinematic-title-intro", "palette": "RESTYLE"},
+        {"repo": "remotion-templates", "unit": "chapter-title", "palette": "RESTYLE"}
+      ]
+    },
+    "definition": {
+      "built": [],
+      "candidates": [
+        {"repo": "onda", "unit": "callout", "palette": "LOCK"},
+        {"repo": "remotion-ui", "unit": "DataCard", "palette": "LOCK"}
+      ]
+    },
+    "step-diagram": {
+      "built": [],
+      "candidates": [
+        {"repo": "onda", "unit": "progress-steps", "palette": "LOCK"},
+        {"repo": "remotion-templates", "unit": "progress-steps", "palette": "RESTYLE"},
+        {"repo": "remotion-bits", "unit": "staggered-motion", "palette": "LOCK"}
+      ]
+    },
+    "flow-diagram": {
+      "built": [],
+      "candidates": [
+        {"repo": "onda", "unit": "node-graph", "palette": "LOCK"},
+        {"repo": "remotion-ui", "unit": "FlowDiagram", "palette": "LOCK"},
+        {"repo": "first-party", "unit": "@remotion/shapes + @remotion/paths", "palette": "n/a", "note": "arrows + connectors"}
+      ]
+    },
+    "formula-reveal": {
+      "built": [],
+      "candidates": [
+        {"repo": "first-party", "unit": "@remotion/paths evolvePath", "palette": "n/a", "note": "draw-on / stroke reveal; pair with KaTeX for the math"},
+        {"repo": "onda", "unit": "underline / highlight / callout", "palette": "LOCK"}
+      ]
+    },
+    "camera-inspect": {
+      "built": [],
+      "candidates": [
+        {"repo": "onda", "unit": "ken-burns", "palette": "LOCK"},
+        {"repo": "remotion-templates", "unit": "ken-burns", "palette": "RESTYLE"},
+        {"repo": "remotion-templates", "unit": "parallax-pan", "palette": "RESTYLE"}
+      ]
+    },
+    "before-after": {
+      "built": [],
+      "candidates": [
+        {"repo": "remotion-templates", "unit": "image-comparison-slider", "palette": "RESTYLE"},
+        {"repo": "onda", "unit": "split-screen", "palette": "LOCK"}
+      ]
+    },
+    "recap": {
+      "built": [],
+      "candidates": [
+        {"repo": "onda", "unit": "end-card", "palette": "LOCK"},
+        {"repo": "remotion-templates", "unit": "end-card", "palette": "RESTYLE"},
+        {"repo": "remotion-bits", "unit": "list-reveal", "palette": "LOCK"}
+      ]
+    },
+    "audio-waveform": {
+      "built": [],
+      "candidates": [
+        {"repo": "clippkit", "unit": "linear-waveform", "palette": "RESTYLE"},
+        {"repo": "onda", "unit": "audio-visualizer", "palette": "LOCK"},
+        {"repo": "remotion-ui", "unit": "WaveformVisualizer", "palette": "LOCK"}
+      ]
+    },
+    "outro-series": {
+      "built": [],
+      "candidates": [],
+      "note": "Next phase: OutroSeries composition, content from book ABOUT.MD; pick a rotating 'interesting' template from TITLE/TEXT/EFFECT keepers."
+    },
+    "outro-cta": {
+      "built": [],
+      "candidates": [],
+      "note": "Next phase: OutroCTA composition (like/comment/subscribe), content from book AUTHOR.MD."
+    }
+  }
+}

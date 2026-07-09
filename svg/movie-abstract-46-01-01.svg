@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="3184.980" height="1078.060" viewBox="-0.397 -0.397 3184.980 1078.060"><defs id="defs1"><clipPath clipPathUnits="userSpaceOnUse" id="clipPath3">
+      <path d="M -1490.7273,3121.9783 H 893.21272 V -248.41181 H -1490.7273 Z" id="path3" />
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath5">
+      <path d="M -2387.0094,4.2025001 H -3.0693251 V -3366.1876 H -2387.0094 Z" id="path5" />
+    </clipPath>
+  </defs><g id="object"><path id="path4" d="m 0,0 v -799.542 c -14.817,9.24 -26.887,16.905 -39.087,24.354 -186.594,113.929 -389.321,186.22 -602.003,232.483 -224.266,48.783 -451.311,65.545 -680.26,54.414 -293.26,-14.257 -577.611,-70.281 -845.768,-193.463 -74.126,-34.052 -143.912,-77.552 -215.689,-116.717 0,265.981 0,531.962 0,798.471 z" style="fill:#2a2123;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(1.3333333,0,0,-1.3333333,3182.6791,5.6033333)" clip-path="url(#clipPath5)" />
+      </g></svg>

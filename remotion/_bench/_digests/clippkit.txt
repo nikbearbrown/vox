@@ -1,0 +1,52 @@
+@@ clippkit | components | glitch-text
+  path: clippkit/apps/docs/registry/default/components/glitch-text.tsx
+  hex:0 props:fontFamily,fontSize,fontWeight,glitchSpeed,glitchStrength,sporadicGlitchChance,text,textColor, tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ clippkit | components | bar-waveform
+  path: clippkit/apps/docs/registry/default/components/bar-waveform.tsx
+  hex:0 props:audioData,barBorderRadius,barColor,barGap,barWidth,containerStyle,growUpwardsOnly,height,numberOfSamples,waveAmplitude,waveSpeed,width, tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ clippkit | components | card-flip
+  path: clippkit/apps/docs/registry/default/components/card-flip.tsx
+  hex:0 props:backBackgroundColor,backText,backTextColor,borderColor,borderRadius,borderStyle,borderWidth,boxShadow,damping,durationInFrames,fontSize,frontBackgroundColor,frontText,frontTextColo tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ clippkit | components | bar-loader
+  path: clippkit/apps/docs/registry/default/components/bar-loader.tsx
+  hex:0 props:barBorderRadius,barColor,barHeight,containerStyle,height,hideText,loadingText,textColor,trackColor,width, tags:
+  desc: 
+@@ clippkit | components | linear-waveform
+  path: clippkit/apps/docs/registry/default/components/linear-waveform.tsx
+  hex:0 props:audioData,containerStyle,fillColor,height,numberOfSamples,strokeColor,strokeWidth,waveAmplitude,waveSpeed,width, tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ clippkit | components | sliding-text
+  path: clippkit/apps/docs/registry/default/components/sliding-text.tsx
+  hex:0 props:damping,durationInFrames,fontSize,initialOffset,mass,slideDirection,stiffness,text,textColor, tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ clippkit | components | screen-loader
+  path: clippkit/apps/docs/registry/default/components/screen-loader.tsx
+  hex:0 props:containerHeight,containerWidth,durationInFrames,loaderColor,loaderSize,loop,variant, tags:
+  desc: 
+@@ clippkit | components | circular-waveform
+  path: clippkit/apps/docs/registry/default/components/circular-waveform.tsx
+  hex:0 props:audioData,barColor,barCount,barMinHeight,barStyle,barWidth,centerOffset,containerStyle,growOutwardsOnly,height,radius,rotationOffset,strokeLinecap,transitionDuration,transitionTimi tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ clippkit | components | circular-loader
+  path: clippkit/apps/docs/registry/default/components/circular-loader.tsx
+  hex:3 props:containerStyle,dotColor,dotDistanceFromCenter,dotRadius,durationInFrames,enablePulse,loopProgress,progress,progressColorMode,progressGradientEndColor,progressGradientStartColor,pro tags:
+  desc: 
+@@ clippkit | components | toast-card
+  path: clippkit/apps/docs/registry/default/components/toast-card.tsx
+  hex:0 props:backgroundColor,borderColor,borderRadius,borderStyle,borderWidth,boxShadow,damping,entryDurationInFrames,exitDurationInFrames,fontFamily,margin,mass,message,messageColor,messageFon tags:
+  desc: 
+@@ clippkit | components | typing-text
+  path: clippkit/apps/docs/registry/default/components/typing-text.tsx
+  hex:0 props:cursorBlinkSpeed,cursorColor,durationInFramesToType,fontFamily,fontSize,fontWeight,text,textColor, tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ clippkit | components | floating-card
+  path: clippkit/apps/docs/registry/default/components/floating-card.tsx
+  hex:0 props:backgroundColor,borderColor,borderRadius,borderStyle,borderWidth,boxShadow,damping,durationInFrames,floatAmplitude,floatSpeed,fontSize,height,mass,stiffness,text,textColor,width, tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing
+@@ clippkit | components | popping-text
+  path: clippkit/apps/docs/registry/default/components/popping-text.tsx
+  hex:0 props:colors,delayPerChar,fontSize,fontWeight,text, tags:
+  desc: Free Remotion Template Component --------------------------------- This template is free to use in your projects! Credit appreciated but not required. Created by the team at https://www.reactvideoeditor.com Happy coding and building amazing

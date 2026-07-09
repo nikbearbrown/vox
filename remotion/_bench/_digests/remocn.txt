@@ -1,0 +1,176 @@
+@@ remocn | remocn-ui | accordion
+  path: remocn/registry/remocn-ui/accordion/index.tsx
+  hex:0 props:className,content,contentHeight,state,style,theme,title,variant, tags:
+  desc: 
+@@ remocn | remocn-ui | ai-prompt-flow
+  path: remocn/registry/remocn-ui/ai-prompt-flow/index.tsx
+  hex:0 props:answerLines,buttonLabel,prompt,theme,toastTitle, tags:
+  desc: 
+@@ remocn | remocn-ui | alert-dialog
+  path: remocn/registry/remocn-ui/alert-dialog/index.tsx
+  hex:0 props:actionLabel,cancelLabel,className,description,state,style,theme,title, tags:
+  desc: 
+@@ remocn | remocn-ui | blur-in
+  path: remocn/registry/remocn-ui/blur-in/preview.tsx
+  hex:4 props:blur,direction,distance,speed,state, tags:
+  desc: 
+@@ remocn | remocn-ui | button
+  path: remocn/registry/remocn-ui/button/index.tsx
+  hex:0 props:align,className,label,primary,size,speed,state,style,theme,variant, tags:
+  desc: 
+@@ remocn | remocn-ui | caret
+  path: remocn/registry/remocn-ui/caret/preview.tsx
+  hex:0 props:blink,blinkPerSecond,color,height,radius,width, tags:
+  desc: 
+@@ remocn | remocn-ui | chat-flow
+  path: remocn/registry/remocn-ui/chat-flow/index.tsx
+  hex:0 props:accentColor,contact,messages,speed,theme, tags:
+  desc: 
+@@ remocn | remocn-ui | checkbox
+  path: remocn/registry/remocn-ui/checkbox/index.tsx
+  hex:0 props:align,className,label,primary,size,state,style,theme, tags:
+  desc: 
+@@ remocn | remocn-ui | checkout-flow
+  path: remocn/registry/remocn-ui/checkout-flow/index.tsx
+  hex:0 props:cardLabel,cardPlaceholder,description,payLabel,plans,termsLabel,theme,title,toastTitle, tags:
+  desc: 
+@@ remocn | remocn-ui | combobox
+  path: remocn/registry/remocn-ui/combobox/index.tsx
+  hex:0 props:className,highlightedIndex,inputStyle,itemStyles,items,placeholder,pressedIndex,query,revealCount,selectedIndex,state,style,theme, tags:
+  desc: 
+@@ remocn | remocn-ui | command-menu-item
+  path: remocn/registry/remocn-ui/command-menu-item/index.tsx
+  hex:0 props:className,icon,label,shortcut,state,style,theme,width, tags:
+  desc: 
+@@ remocn | remocn-ui | command-menu
+  path: remocn/registry/remocn-ui/command-menu/index.tsx
+  hex:0 props:className,highlightedIndex,itemStyles,items,pressedIndex,query,revealCount,selectedIndex,state,style,theme, tags:
+  desc: 
+@@ remocn | remocn-ui | context-menu
+  path: remocn/registry/remocn-ui/context-menu/preview.tsx
+  hex:0 props:highlightedIndex,state, tags:
+  desc: 
+@@ remocn | remocn-ui | cursor
+  path: remocn/registry/remocn-ui/cursor/preview.tsx
+  hex:0 props:rippleColor,size,speed,variant, tags:
+  desc: 
+@@ remocn | remocn-ui | dialog
+  path: remocn/registry/remocn-ui/dialog/index.tsx
+  hex:0 props:actionLabel,cancelLabel,className,description,state,style,theme,title, tags:
+  desc: 
+@@ remocn | remocn-ui | drawer
+  path: remocn/registry/remocn-ui/drawer/index.tsx
+  hex:0 props:actionLabel,cancelLabel,className,description,state,style,theme,title, tags:
+  desc: 
+@@ remocn | remocn-ui | dropdown-menu-item
+  path: remocn/registry/remocn-ui/dropdown-menu-item/index.tsx
+  hex:0 props:label,state,style,theme,width, tags:
+  desc: 
+@@ remocn | remocn-ui | dropdown-menu
+  path: remocn/registry/remocn-ui/dropdown-menu/index.tsx
+  hex:0 props:className,highlightedIndex,itemStyles,items,label,pressedIndex,state,style,theme,triggerStyle, tags:
+  desc: 
+@@ remocn | remocn-ui | field
+  path: remocn/registry/remocn-ui/field/index.tsx
+  hex:0 props:children,gap,style, tags:
+  desc: 
+@@ remocn | remocn-ui | imessage-chat-flow
+  path: remocn/registry/remocn-ui/imessage-chat-flow/index.tsx
+  hex:18 props:accentColor,contact,messages,speed,theme, tags:
+  desc: 
+@@ remocn | remocn-ui | input
+  path: remocn/registry/remocn-ui/input/index.tsx
+  hex:0 props:className,fullWidth,placeholder,primary,size,state,style,theme,value, tags:
+  desc: 
+@@ remocn | remocn-ui | message-bubble
+  path: remocn/registry/remocn-ui/message-bubble/preview.tsx
+  hex:0 props:reaction,state,text,variant, tags:
+  desc: 
+@@ remocn | remocn-ui | onboarding-stepper-flow
+  path: remocn/registry/remocn-ui/onboarding-stepper-flow/index.tsx
+  hex:0 props:finishLabel,name,nextLabel,plans,steps,theme, tags:
+  desc: 
+@@ remocn | remocn-ui | popover
+  path: remocn/registry/remocn-ui/popover/preview.tsx
+  hex:0 props:description,side,state,title,width, tags:
+  desc: 
+@@ remocn | remocn-ui | progress
+  path: remocn/registry/remocn-ui/progress/preview.tsx
+  hex:0 props:showLabel,value,width, tags:
+  desc: 
+@@ remocn | remocn-ui | radio
+  path: remocn/registry/remocn-ui/radio/index.tsx
+  hex:0 props:className,label,primary,size,state,style,theme, tags:
+  desc: 
+@@ remocn | remocn-ui | resizable
+  path: remocn/registry/remocn-ui/resizable/index.tsx
+  hex:0 props:className,direction,first,handleState,height,maxRatio,minRatio,ratio,second,style,theme,width, tags:
+  desc: 
+@@ remocn | remocn-ui | select-item
+  path: remocn/registry/remocn-ui/select-item/index.tsx
+  hex:0 props:className,label,state,style,theme,width, tags:
+  desc: 
+@@ remocn | remocn-ui | select
+  path: remocn/registry/remocn-ui/select/index.tsx
+  hex:0 props:className,highlightedIndex,itemStyles,items,label,pressedIndex,selectedIndex,state,style,theme,triggerStyle, tags:
+  desc: 
+@@ remocn | remocn-ui | settings-toggle-flow
+  path: remocn/registry/remocn-ui/settings-toggle-flow/index.tsx
+  hex:0 props:description,rows,saveLabel,selectItems,theme,title,toastTitle, tags:
+  desc: 
+@@ remocn | remocn-ui | sheet
+  path: remocn/registry/remocn-ui/sheet/index.tsx
+  hex:0 props:actionLabel,cancelLabel,className,description,state,style,theme,title, tags:
+  desc: 
+@@ remocn | remocn-ui | signup-flow
+  path: remocn/registry/remocn-ui/signup-flow/index.tsx
+  hex:0 props:createLabel,description,email,fullName,googleLabel,password,signinText,theme,title,toastTitle, tags:
+  desc: 
+@@ remocn | remocn-ui | skeleton-block
+  path: remocn/registry/remocn-ui/skeleton-block/preview.tsx
+  hex:0 props:height,radius,speed,width, tags:
+  desc: 
+@@ remocn | remocn-ui | skeleton
+  path: remocn/registry/remocn-ui/skeleton/preview.tsx
+  hex:0 props:layout,speed,state, tags:
+  desc: 
+@@ remocn | remocn-ui | slider
+  path: remocn/registry/remocn-ui/slider/preview.tsx
+  hex:0 props:showValue,thumbState,value,width, tags:
+  desc: 
+@@ remocn | remocn-ui | spinner
+  path: remocn/registry/remocn-ui/spinner/index.tsx
+  hex:0 props:className,color,size,speed,strokeWidth, tags:
+  desc: 
+@@ remocn | remocn-ui | stepper
+  path: remocn/registry/remocn-ui/stepper/preview.tsx
+  hex:0 props:activeIndex, tags:
+  desc: 
+@@ remocn | remocn-ui | switch
+  path: remocn/registry/remocn-ui/switch/index.tsx
+  hex:0 props:className,label,primary,size,state,style,theme, tags:
+  desc: 
+@@ remocn | remocn-ui | tabs
+  path: remocn/registry/remocn-ui/tabs/index.tsx
+  hex:0 props:className,contentHeight,contents,items,state,style,theme,variant, tags:
+  desc: 
+@@ remocn | remocn-ui | telegram-chat-flow
+  path: remocn/registry/remocn-ui/telegram-chat-flow/index.tsx
+  hex:21 props:accentColor,contact,messages,speed,theme, tags:
+  desc: 
+@@ remocn | remocn-ui | toast
+  path: remocn/registry/remocn-ui/toast/preview.tsx
+  hex:0 props:description,state,title,variant, tags:
+  desc: 
+@@ remocn | remocn-ui | toggle-group
+  path: remocn/registry/remocn-ui/toggle-group/index.tsx
+  hex:0 props:align,className,items,size,state,style,theme, tags:
+  desc: 
+@@ remocn | remocn-ui | tooltip
+  path: remocn/registry/remocn-ui/tooltip/preview.tsx
+  hex:0 props:label,side,state, tags:
+  desc: 
+@@ remocn | remocn-ui | typing-indicator
+  path: remocn/registry/remocn-ui/typing-indicator/preview.tsx
+  hex:0 props:amplitude,dotCount,size,speed, tags:
+  desc: 

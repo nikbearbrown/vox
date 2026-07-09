@@ -95,6 +95,22 @@ if [ "$VOX_QC" = "1" ] && [ -n "$PENDING" ] && [ -f "$QC/static_scene_check.py" 
   done
 fi
 
+# ---- GATE W: independent WCAG + margins + overlap pre-flight (no render, no manim)
+if [ "$VOX_QC" = "1" ] && [ -n "$PENDING" ] && [ -f "$QC/wcag_margin_check.py" ]; then
+  echo "[vox_run] GATE W — WCAG contrast + margins + text-overlap (independent second check)"
+  for S in $PENDING; do
+    rc=0
+    python3 "$QC/wcag_margin_check.py" "$GFX/$GFXFILE" --class "$S" --quiet || rc=$?
+    if [ "$rc" -ge 2 ]; then
+      echo "[vox_run] GATE W FAILED: $S — gold-as-text / contrast / off-frame / text-on-text."
+      echo "[vox_run] Fix the scene; nothing rendered. (Rules: SLATE-RUNNER CONVENTIONS -> Gate W)"
+      exit 2
+    elif [ "$rc" -eq 1 ]; then
+      echo "[vox_run] gate W warning on $S (continuing)"
+    fi
+  done
+fi
+
 # ---- render + GATE B per scene
 cd "$GFX"
 for S in $PENDING; do

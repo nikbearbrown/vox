@@ -99,6 +99,55 @@ Generate the B02 still for computational-skepticism-for-ai/youtube/<slug> from t
 
 ---
 
+## Remotion pass — fill slate beats with motion graphics (Node lane)
+
+Slate beats can be filled with vox-palette **Remotion** motion graphics instead of
+(or before) AI stills. This is the only lane that needs **Node.js** — everything else
+in vox is Python. Set up once, then it's one command per reel. Full spec:
+`vox/aspects/remotion-pass/SKILL.md`; project details: `.../remotion/README.md`.
+
+### One-time setup (once on this Mac)
+
+1. **Install Node** if `node -v` fails. Homebrew:
+   ```bash
+   brew install node
+   ```
+   or nvm (no admin needed):
+   ```bash
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash && nvm install --lts
+   ```
+2. **Install the project's deps:**
+   ```bash
+   cd /Users/bear/Documents/CoWork/bear-textbooks/books/vox/aspects/remotion-pass/remotion && npm install
+   ```
+3. **Register the house fonts** (same four as the core setup, so the palette tokens
+   resolve instead of system fallbacks):
+   ```bash
+   cp /Users/bear/Documents/CoWork/bear-textbooks/books/vox/fonts/*/static/*.ttf /Users/bear/Documents/CoWork/bear-textbooks/books/vox/fonts/PT_Mono/*.ttf ~/Library/Fonts/
+   ```
+4. **Smoke test** the render toolchain:
+   ```bash
+   cd /Users/bear/Documents/CoWork/bear-textbooks/books/vox/aspects/remotion-pass/remotion && npx remotion render src/index.ts BarChart out/test.mp4
+   ```
+
+### Per reel
+
+Once the beat sheet marks slate beats with `shot.scene_type` + `shot.remotion.{pattern,
+props}` (the builder chooses these from `remotion/_bench/index.json` — template-first,
+create only on a real gap), fill them and re-compile:
+```bash
+python3 /Users/bear/Documents/CoWork/bear-textbooks/books/vox/scripts/vox_remotion.py <REEL>
+bash    /Users/bear/Documents/CoWork/bear-textbooks/books/vox/scripts/vox_run.sh      <REEL>
+```
+`--list` shows what would be filled; `--only B04` re-renders one beat after a `change`.
+
+### The prompt (Claude Code)
+```
+Read vox/CLAUDE.md and vox/aspects/remotion-pass/SKILL.md. For <REEL>, for each slate beat: decide motion-graphic vs leave-as-photo, set shot.scene_type from the SCENE-SELECTION decision tree, pick a fitting pattern from remotion/_bench/index.json (template-first; build reel-local only if nothing fits without forcing), inject the beat's content into shot.remotion.props, and run scripts/vox_remotion.py <REEL>. Stamp provenance, do not promote anything to the bench without my vet, then run vox_run.sh and give me the review MP4 open command.
+```
+
+---
+
 ## Where things land
 - Cards (scout output): `<book>/youtube/video-ideas.md` — the vox scout's home
   (legacy reallocation cards sit in `<book>/vids/` until re-scouted); built

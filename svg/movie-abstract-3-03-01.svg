@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="47.943" height="45.570" viewBox="1899.810 730.577 47.943 45.570"><defs id="defs1"><clipPath clipPathUnits="userSpaceOnUse" id="clipPath104">
+      <path d="M -1176.5968,3356.5086 H 1207.3433 V -13.881475 h -2383.9401 z" id="path104" />
+    </clipPath>
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath108">
+      <path d="M -1147.206,3297.7267 H 1236.7341 V -72.663402 H -1147.206 Z" id="path108" />
+    </clipPath>
+  </defs><g id="object"><path id="path1285" d="M 0,0 C 0.534,8.729 7.164,5.267 11.756,5.878 15.767,5.97 17.726,4.01 17.635,0 18.254,-7.43 17.302,-12.764 7.384,-11.996 -1.676,-11.294 0.442,-5.202 0,0" style="fill:#535238;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(1.3333333,0,0,-1.3333333,1913.6492,744.65667)" />
+      <path id="path1286" d="m 0,0 c -0.522,-7.356 0.054,-12.9 10.265,-12.1 9.348,0.731 6.759,6.992 7.37,12.1 C 31.161,-34.364 0.948,-10.407 -5.878,-17.635 V -11.756 0 Z" style="fill:#645338;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(1.3333333,0,0,-1.3333333,1913.6492,744.65667)" />
+      </g></svg>
