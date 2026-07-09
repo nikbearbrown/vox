@@ -715,6 +715,14 @@
   {
    "beat": "B14",
    "video": "vox-sponsor-flip"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-format-credibility"
+  },
+  {
+   "beat": "B16",
+   "video": "vox-modal-upgrade"
   }
  ],
  "OutroSeries": [
@@ -1433,6 +1441,14 @@
   {
    "beat": "B13",
    "video": "vox-sponsor-flip"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-format-credibility"
+  },
+  {
+   "beat": "B15",
+   "video": "vox-modal-upgrade"
   }
  ],
  "SlateCard": [
@@ -2555,6 +2571,222 @@
   {
    "beat": "B14",
    "video": "vox-same-density-matrix"
+  },
+  {
+   "beat": "B01",
+   "video": "vox-t2-ceiling"
+  },
+  {
+   "beat": "B04",
+   "video": "vox-t2-ceiling"
+  },
+  {
+   "beat": "B05",
+   "video": "vox-t2-ceiling"
+  },
+  {
+   "beat": "B08",
+   "video": "vox-t2-ceiling"
+  },
+  {
+   "beat": "B09",
+   "video": "vox-t2-ceiling"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-t2-ceiling"
+  },
+  {
+   "beat": "B14",
+   "video": "vox-t2-ceiling"
+  },
+  {
+   "beat": "B01",
+   "video": "vox-tensor-product"
+  },
+  {
+   "beat": "B04",
+   "video": "vox-tensor-product"
+  },
+  {
+   "beat": "B05",
+   "video": "vox-tensor-product"
+  },
+  {
+   "beat": "B08",
+   "video": "vox-tensor-product"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-tensor-product"
+  },
+  {
+   "beat": "B12",
+   "video": "vox-tensor-product"
+  },
+  {
+   "beat": "B08",
+   "video": "vox-eigen-directions"
+  },
+  {
+   "beat": "B08",
+   "video": "vox-fermion-counting"
+  },
+  {
+   "beat": "B08",
+   "video": "vox-fourier-uncertainty"
+  },
+  {
+   "beat": "B08",
+   "video": "vox-multiplicity-peak"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-format-credibility"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-format-credibility"
+  },
+  {
+   "beat": "B08",
+   "video": "vox-path-integral"
+  },
+  {
+   "beat": "B08",
+   "video": "vox-phasor-stationary"
+  },
+  {
+   "beat": "B08",
+   "video": "vox-potential-parabola"
+  },
+  {
+   "beat": "B08",
+   "video": "vox-quantum-revival"
+  },
+  {
+   "beat": "B01",
+   "video": "vox-tunneling-exponent"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-tunneling-exponent"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-tunneling-exponent"
+  },
+  {
+   "beat": "B04",
+   "video": "vox-tunneling-exponent"
+  },
+  {
+   "beat": "B05",
+   "video": "vox-tunneling-exponent"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-tunneling-exponent"
+  },
+  {
+   "beat": "B07",
+   "video": "vox-tunneling-exponent"
+  },
+  {
+   "beat": "B08",
+   "video": "vox-tunneling-exponent"
+  },
+  {
+   "beat": "B09",
+   "video": "vox-tunneling-exponent"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-tunneling-exponent"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-tunneling-exponent"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-base-rate-gap"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-effort-misallocation"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-fit-nonsponsor"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-fluency-learning"
+  },
+  {
+   "beat": "B04",
+   "video": "vox-fluency-seam"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-ghost-signals"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-name-match-gap"
+  },
+  {
+   "beat": "B06",
+   "video": "vox-name-match-gap"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-ninety-day-gate"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-recency-size"
+  },
+  {
+   "beat": "B09",
+   "video": "vox-resume-zero"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-soc-mismatch"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-sponsor-flip"
+  },
+  {
+   "beat": "B01",
+   "video": "vox-modal-upgrade"
+  },
+  {
+   "beat": "B02",
+   "video": "vox-modal-upgrade"
+  },
+  {
+   "beat": "B03",
+   "video": "vox-modal-upgrade"
+  },
+  {
+   "beat": "B05",
+   "video": "vox-modal-upgrade"
+  },
+  {
+   "beat": "B08",
+   "video": "vox-modal-upgrade"
+  },
+  {
+   "beat": "B10",
+   "video": "vox-modal-upgrade"
+  },
+  {
+   "beat": "B11",
+   "video": "vox-modal-upgrade"
   }
  ]
 }

@@ -293,6 +293,19 @@ Scout: `books/quantum-mechanics-vol5/youtube/video-ideas.md` · build into `book
 - [ ] 14 — Tunneling exponent from WKB · decay · 7/10 → vox-tunneling-exponent
 - [ ] 19 — Quantum numbers from single-valuedness · scan · 7/10 → vox-quantum-numbers
 
+## Claude Cowork
+Scout: `books/claude-cowork/youtube/video-ideas.md` · build into `books/claude-cowork/youtube/<slug>/`
+
+- [x] 01 — Why a Perfect-Looking Spreadsheet Can Be Off by a Factor of Ten (ch06) · compare · 10/10 → vox-format-credibility → `open /Users/bear/Documents/CoWork/bear-textbooks/books/claude-cowork/youtube/vox-format-credibility/vox-format-credibility-review.mp4`
+- [x] 02 — Why "Maybe We Should" Becomes "Decision: We Will" (ch09) · morph · 10/10 → vox-modal-upgrade → `open /Users/bear/Documents/CoWork/bear-textbooks/books/claude-cowork/youtube/vox-modal-upgrade/vox-modal-upgrade-review.mp4`
+- [x] 03 — Why Checking the Output Won't Save You (ch10) · trace · 9/10 → vox-exposure-gate → `open /Users/bear/Documents/CoWork/bear-textbooks/books/claude-cowork/youtube/vox-exposure-gate/vox-exposure-gate-review.mp4`
+- [x] 04 — Why an Agent Obeys the Web Page Instead of You (ch03) · accumulate · 9/10 → vox-instruction-channel → `open /Users/bear/Documents/CoWork/bear-textbooks/books/claude-cowork/youtube/vox-instruction-channel/vox-instruction-channel-review.mp4`
+- [x] 05 — Why 200 Tiny Reversible Renames Add Up to One You Can't Undo (ch08) · duplicate · 8/10 → vox-batch-propagation → `open /Users/bear/Documents/CoWork/bear-textbooks/books/claude-cowork/youtube/vox-batch-propagation/vox-batch-propagation-review.mp4`
+- [x] 06 — Why a Plan That Reads Perfectly Can Still Delete Your Files (ch05) · scan · 8/10 → vox-coherent-unsafe → `open /Users/bear/Documents/CoWork/bear-textbooks/books/claude-cowork/youtube/vox-coherent-unsafe/vox-coherent-unsafe-review.mp4`
+- [x] 07 — Why Summarizing Deletes Exactly the Caveats (ch07) · collapse · 8/10 → vox-compression-caveats → `open /Users/bear/Documents/CoWork/bear-textbooks/books/claude-cowork/youtube/vox-compression-caveats/vox-compression-caveats-review.mp4`
+- [ ] 08 — Why a Model Can't Catch Its Own Mistake (ch97) · duplicate · 8/10 → vox-same-prescription
+- [ ] 09 — Why Read-Only Access Still Leaks (ch03) · spread · 7/10 → vox-scope-gap
+
 ---
 
 **To add a card to the queue:** paste its number (and book) here as an unchecked

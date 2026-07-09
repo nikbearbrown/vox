@@ -158,7 +158,8 @@ def _log_replace(folder, bid, msg):
 
 
 def compile_clip(folder, beat, out, w, h, fps, font, work, fit="crop"):
-    bid, dur = beat["beat_id"], float(beat["actual_duration_s"])
+    bid = beat["beat_id"]
+    dur = float(beat.get("actual_duration_s") or beat.get("estimated_duration_s") or 6.0)
     shot = beat.get("shot", {})
     src, status = resolve_slot(folder, bid)
     enc = ["-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
@@ -237,7 +238,8 @@ def make_qc_sheet(folder, beats, clips, work, font):
     from PIL import Image, ImageDraw
     tiles, tw, th = [], 480, 270
     for b in beats:
-        bid, dur = b["beat_id"], float(b["actual_duration_s"])
+        bid = b["beat_id"]
+        dur = float(b.get("actual_duration_s") or b.get("estimated_duration_s") or 6.0)
         clip = clips / f"{bid}.mp4"
         frame = work / f"qc-{bid}.png"
         subprocess.run([FFMPEG, "-y", "-ss", f"{dur / 2:.2f}", "-i", str(clip),
@@ -303,7 +305,8 @@ def main():
 
     report, t0 = [], 0.0
     for b in beats:
-        bid, dur = b["beat_id"], float(b["actual_duration_s"])
+        bid = b["beat_id"]
+        dur = float(b.get("actual_duration_s") or b.get("estimated_duration_s") or 6.0)
         out = clips / f"{bid}.mp4"
         src, status = resolve_slot(folder, bid)
         bshot = b.get("shot", {})
@@ -349,7 +352,7 @@ def main():
     lst = clips / "concat.txt"
     lst.write_text("".join(f"file '{(clips / (b['beat_id'] + '.mp4')).resolve()}'\n"
                            for b in beats))
-    total = sum(float(b["actual_duration_s"]) for b in beats)
+    total = sum(float(b.get("actual_duration_s") or b.get("estimated_duration_s") or 6.0) for b in beats)
     audio, akind = build_master_audio(folder, beats, a.audio, clips)
 
     slug = sheet.get("metadata", {}).get("slug", folder.name)
