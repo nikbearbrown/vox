@@ -303,8 +303,8 @@ Scout: `books/claude-cowork/youtube/video-ideas.md` · build into `books/claude-
 - [x] 05 — Why 200 Tiny Reversible Renames Add Up to One You Can't Undo (ch08) · duplicate · 8/10 → vox-batch-propagation → `open /Users/bear/Documents/CoWork/bear-textbooks/books/claude-cowork/youtube/vox-batch-propagation/vox-batch-propagation-review.mp4`
 - [x] 06 — Why a Plan That Reads Perfectly Can Still Delete Your Files (ch05) · scan · 8/10 → vox-coherent-unsafe → `open /Users/bear/Documents/CoWork/bear-textbooks/books/claude-cowork/youtube/vox-coherent-unsafe/vox-coherent-unsafe-review.mp4`
 - [x] 07 — Why Summarizing Deletes Exactly the Caveats (ch07) · collapse · 8/10 → vox-compression-caveats → `open /Users/bear/Documents/CoWork/bear-textbooks/books/claude-cowork/youtube/vox-compression-caveats/vox-compression-caveats-review.mp4`
-- [ ] 08 — Why a Model Can't Catch Its Own Mistake (ch97) · duplicate · 8/10 → vox-same-prescription
-- [ ] 09 — Why Read-Only Access Still Leaks (ch03) · spread · 7/10 → vox-scope-gap
+- [x] 08 — Why a Model Can't Catch Its Own Mistake (ch97) · duplicate · 8/10 → vox-same-prescription → `open /Users/bear/Documents/CoWork/bear-textbooks/books/claude-cowork/youtube/vox-same-prescription/vox-same-prescription-review.mp4`
+- [x] 09 — Why Read-Only Access Still Leaks (ch03) · spread · 7/10 → vox-scope-gap → `open /Users/bear/Documents/CoWork/bear-textbooks/books/claude-cowork/youtube/vox-scope-gap/vox-scope-gap-review.mp4`
 
 ---
 

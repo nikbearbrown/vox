@@ -15,6 +15,8 @@ vox_scenes.py. Runs BEFORE any render. Checks, per scene:
                           any overlap = WARN
   W5  Text-on-shape       text bbox crossing a Line's span or a stroked shape edge = WARN
   W6  White-text-adrift   WHITE text with no accent box in sight = WARN
+  W7  Chapter-on-slide    "Chapter N" / book-title citation on screen = ERROR
+                          (name the TOPIC kicker, never the chapter — SLATE-RUNNER)
 
 Static estimation honesty: positions come from explicit move_to/shift/to_edge
 arithmetic; items positioned only via next_to/arrange are checked for color but
@@ -27,14 +29,28 @@ Usage:
 """
 import argparse, ast, itertools, re, sys
 
-# ---- palette (kept in sync with vox_graphics.py tokens; aliases included)
-HEX = {
-    "GROUND": "#F3EBDD", "CREAM": "#F3EBDD", "INK": "#2F2A26",
-    "CRIMSON": "#BF3339", "TEAL": "#1F6F5C", "GOLD": "#F5D061",
-    "SLATE": "#3E5559", "WHITE": "#FFFFFF", "BLACK": "#000000",
-    "NAVY": "#1F6F5C", "BLUE": "#3E5559", "TERRA": "#BF3339",
-    "GRAY": "#888888", "GREY": "#888888",
+# ---- palette lock (kept in sync with vox_graphics.py tokens; aliases included).
+# Palette-aware: the active palette is chosen by --palette or env VOX_PALETTE
+# (default teardown). Same role keys, per-palette values — so a teardown reel is
+# checked against white/ink/red, not the old cream/teal defaults.
+import os as _os
+_PALETTES = {  # GROUND, INK, TEAL(good), CRIMSON(bad), SLATE(struct), GOLD(highlight)
+    "teardown":      ("#FFFFFF", "#2A1A0E", "#2A1A0E", "#C8102E", "#545454", "#F6D8DC"),
+    "newsprint":     ("#F3EBDD", "#2F2A26", "#1F6F5C", "#BF3339", "#3E5559", "#F5D061"),
+    "neu":           ("#FFFFFF", "#000000", "#000000", "#545454", "#545454", "#A4804A"),
+    "medhavy":       ("#F0EAD6", "#000000", "#009E73", "#D55E00", "#4D4D4D", "#F0E442"),
+    "humanitarians": ("#F3EBDD", "#2F2A26", "#1F4E5F", "#E4572E", "#29335C", "#F3A712"),
 }
+def build_hex(pal):
+    g, ink, teal, crim, slate, gold = _PALETTES.get(pal, _PALETTES["teardown"])
+    return {
+        "GROUND": g, "CREAM": g, "INK": ink,
+        "CRIMSON": crim, "TEAL": teal, "GOLD": gold,
+        "SLATE": slate, "WHITE": "#FFFFFF", "BLACK": "#000000",
+        "NAVY": teal, "BLUE": slate, "TERRA": crim,
+        "GRAY": "#888888", "GREY": "#888888",
+    }
+HEX = build_hex(_os.environ.get("VOX_PALETTE", "teardown"))
 FRAME_X, FRAME_Y, SAFE_X, SAFE_Y = 7.1, 4.0, 6.3, 3.4
 
 def lum(hexc):
@@ -47,6 +63,21 @@ def contrast(a, b):
     la, lb = lum(a), lum(b)
     hi, lo = max(la, lb), min(la, lb)
     return (hi + 0.05) / (lo + 0.05)
+
+def _ints(h):
+    return tuple(int(h[i:i+2], 16) for i in (1, 3, 5))
+
+def blend(fg, bg, alpha):
+    """Composite a fill over a ground at the given opacity -> effective bg hex."""
+    try:
+        fr, fgc, fb = _ints(fg); br, bgc, bb = _ints(bg)
+    except Exception:
+        return bg
+    a = max(0.0, min(1.0, alpha or 0.0))
+    m = lambda f, b: int(round(a*f + (1-a)*b))
+    return "#%02X%02X%02X" % (m(fr, br), m(fgc, bgc), m(fb, bb))
+
+CHAP_RE = re.compile(r'\bchapter\b|\bch\.\s*\d', re.I)
 
 DIRS = {"UP": (0, 1), "DOWN": (0, -1), "LEFT": (-1, 0), "RIGHT": (1, 0),
         "ORIGIN": (0, 0), "UL": (-1, 1), "UR": (1, 1), "DL": (-1, -1), "DR": (1, -1)}
@@ -104,6 +135,7 @@ class Item:
         self.var, self.kind, self.text = var, kind, text
         self.color, self.size, self.line = color, size, line
         self.pos = None          # (x, y) center, if resolved
+        self.on_shape = None     # shape var this text is move_to'd onto (fill contrast)
         self.boxed = kind == "LabelChip"
     def bbox(self):
         if self.pos is None:
@@ -150,7 +182,10 @@ def analyze_scene(cls, src_lines, quiet):
                             item.size = (item.size or 48) * k
                     elif meth == "move_to" and c.args:
                         p = vec(c.args[0])
-                        if p: item.pos = p
+                        if p:
+                            item.pos = p
+                        elif isinstance(c.args[0], ast.Name):
+                            item.on_shape = c.args[0].id
                     elif meth == "shift" and c.args:
                         p = vec(c.args[0])
                         if p and item.pos:
@@ -192,9 +227,18 @@ def analyze_scene(cls, src_lines, quiet):
                 p1 = vec(call.args[1]) if len(call.args) > 1 else None
                 lines_[var or f"@{ln}"] = (p0, p1, ln)
             elif fn in ("Rectangle", "Square", "RoundedRectangle", "Circle"):
-                shapes[var or f"@{ln}"] = {"line": ln, "pos": None,
-                                           "w": const(kw(call, "width"), 1.0),
-                                           "h": const(kw(call, "height"), 1.0)}
+                _fc = const(kw(call, "fill_color"), const(kw(call, "color"), None))
+                _fo = const(kw(call, "fill_opacity"), 0.0)
+                _sh = {"line": ln, "pos": None,
+                       "w": const(kw(call, "width"), 1.0),
+                       "h": const(kw(call, "height"), 1.0),
+                       "fill": _fc if isinstance(_fc, str) else None,
+                       "opacity": _fo if isinstance(_fo, (int, float)) else 0.0}
+                for _m, _c in reversed(chain):
+                    if _m == "move_to" and _c.args:
+                        _p = vec(_c.args[0])
+                        if _p: _sh["pos"] = _p
+                shapes[var or f"@{ln}"] = _sh
         # ---- method calls: positioning + fills
         if isinstance(node, ast.Call) and isinstance(node.func, ast.Attribute):
             meth = node.func.attr
@@ -210,6 +254,8 @@ def analyze_scene(cls, src_lines, quiet):
                     if p:
                         if root in texts: texts[root].pos = p
                         if root in shapes: shapes[root]["pos"] = p
+                    elif isinstance(node.args[0], ast.Name) and root in texts:
+                        texts[root].on_shape = node.args[0].id
                 elif meth == "to_edge" and node.args and isinstance(node.args[0], ast.Name):
                     d = node.args[0].id
                     buff = const(kw(node, "buff"), 0.5) or 0.5
@@ -246,15 +292,21 @@ def analyze_scene(cls, src_lines, quiet):
         if chex is None:
             continue
         if c == "WHITE" and name not in boxed_vars:
-            warns.append(f"W6 WHITE-ADRIFT {label} — white text with no accent box; on cream it is {contrast('#FFFFFF', HEX['GROUND']):.2f}:1")
+            warns.append(f"W6 WHITE-ADRIFT {label} — white text with no accent box; on ground it is {contrast('#FFFFFF', HEX['GROUND']):.2f}:1")
             continue
-        bg = HEX["GROUND"]
+        bg = HEX["GROUND"]; bg_desc = "ground"
+        osh = getattr(it, "on_shape", None)
+        if osh and osh in shapes and shapes[osh].get("fill"):
+            fhex = HEX.get(shapes[osh]["fill"])
+            if fhex:
+                bg = blend(fhex, HEX["GROUND"], shapes[osh].get("opacity") or 0.0)
+                bg_desc = f"{shapes[osh]['fill']}-fill on cream"
         r = contrast(chex, bg)
         need = 3.0 if big else 4.5
         if r < 3.0:
-            errors.append(f"W2 CONTRAST {label} — {c} on cream = {r:.2f}:1 (<3.0)")
+            errors.append(f"W2 CONTRAST {label} — {c} on {bg_desc} = {r:.2f}:1 (<3.0)")
         elif r < need:
-            warns.append(f"W2 CONTRAST {label} — {c} on cream = {r:.2f}:1 (< {need} for {'large' if big else 'body'} text)")
+            warns.append(f"W2 CONTRAST {label} — {c} on {bg_desc} = {r:.2f}:1 (< {need} for {'large' if big else 'body'} text)")
 
     # ---- W3: margins
     for name, it in texts.items():
@@ -289,12 +341,23 @@ def analyze_scene(cls, src_lines, quiet):
             ly0, ly1 = min(p0[1], p1[1]) - 0.05, max(p0[1], p1[1]) + 0.05
             if bb[0] < lx1 and bb[2] > lx0 and bb[1] < ly1 and bb[3] > ly0:
                 warns.append(f"W5 TEXT-ON-LINE {name} ('{it.text[:20]}') crosses {ln_name} (line {lln}) — mark _qc_intentional if deliberate")
+
+    # ---- W7: chapter numbers (and book-title citations) never on a slide
+    for cnode in ast.walk(cls):
+        if isinstance(cnode, ast.Constant) and isinstance(cnode.value, str) and CHAP_RE.search(cnode.value):
+            snip = cnode.value.replace("\n", " ")[:44]
+            errors.append(f"W7 CHAPTER-ON-SLIDE ('{snip}' line {getattr(cnode, 'lineno', '?')}) — chapter numbers never appear on screen; name the TOPIC, not the chapter (SLATE-RUNNER recap law)")
     return errors, warns, infos
 
 def main():
+    global HEX
     ap = argparse.ArgumentParser()
     ap.add_argument("file"); ap.add_argument("--class", dest="cls"); ap.add_argument("--quiet", action="store_true")
+    ap.add_argument("--palette", default=None,
+                    help="palette lock to check against (default: $VOX_PALETTE or teardown)")
     a = ap.parse_args()
+    if a.palette:
+        HEX = build_hex(a.palette)
     src = open(a.file, encoding="utf-8").read()
     tree = ast.parse(src)
     lines = src.split("\n")

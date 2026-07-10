@@ -114,9 +114,19 @@ place and pulls assets from the toolkit. `reels/` here holds only the example +
      but plausible; every invented number is labeled illustrative in
      FACTCHECK. The 9:16 derivative cut DROPS this act — its shorter
      length is correct without it.
+   - **THE PRACTICE** (1–2 beats, mandatory at every length): what to
+     actually DO about the mechanism just taught — the heuristic, the
+     check, the rule of thumb the viewer can apply tomorrow. Concrete and
+     checkable ("verify the world-state, never trust the success report"),
+     NEVER a vague caution ("be careful", "keep this in mind"). A film that
+     diagnoses a problem and shows an example but never says what to do has
+     stopped one beat short of being useful — that is the single most
+     common failure in the library. The 9:16 short keeps THE PRACTICE even
+     when it drops THE EXAMPLE: the takeaway is the reason to watch.
    - **RECAP** (endcard): question → answer, one line.
    A ~1-minute film collapses PROBLEM into the cold open and skips section
-   cards, but THE QUESTION beat and the RECAP are mandatory at every length.
+   cards, but THE QUESTION beat, THE PRACTICE beat, and the RECAP are mandatory at
+   every length.
 
    **Media economy at length:** roughly one `STILL · ai` beat per 90s of
    runtime (a 4-minute film earns 2–3 stills), placed at act boundaries.
@@ -144,6 +154,14 @@ place and pulls assets from the toolkit. `reels/` here holds only the example +
    - **Vocabulary law:** no technical term debuts before the beat that made
      the viewer want a name for it — verify against FACTCHECK's terms table.
      Definitions are endpoints, not starting points.
+   - **Anchor-not-transcript law (modality/redundancy):** on-screen text
+     is an ANCHOR, never a transcript. The full sentence or paragraph a
+     beat SAYS must never be the text a beat SHOWS. Card copy is a short
+     question, phrase, or ≤~7-word line; the narration carries the rest.
+     For every scene, diff the on-screen strings against `narration` — if a
+     card reproduces the spoken sentence, cut it to its keyword. Identical
+     words in the ear and on the page compete for one channel and teach
+     worse than either alone (Mayer's redundancy + modality principles).
    - **Equations:** every equation runs as an EQUATIONS.md tangent (beat
      group, five zones, ≤~45s, explains never derives, values claim spoken,
      re-entry cue) — or is excluded by the card and appears nowhere.
@@ -156,6 +174,17 @@ place and pulls assets from the toolkit. `reels/` here holds only the example +
    - **The example act (16:9):** the full cut carries THE EXAMPLE right
      before RECAP; its invented numbers are labeled illustrative in
      FACTCHECK. The 9:16 short drops it.
+   - **Practice present (the takeaway law):** the film names at least one
+     CONCRETE, actionable heuristic — what to DO about the mechanism, not
+     just what it is. "Be careful" / "keep this in mind" do NOT count; the
+     move must be checkable. A reel that only diagnoses (problem + example,
+     no what-to-do) FAILS this item — rewrite to add THE PRACTICE.
+   - **Simulation-first check:** for every MECHANISM beat ask "is this a
+     process that unfolds in time?" If yes, the shotlist must ANIMATE it —
+     the value moving, the curve evolving, the state changing — not freeze it
+     into a static diagram or restate it as text. A mechanism beat that is a
+     still image (or worse, an unlabelled box) where a simulation was possible
+     FAILS — rebuild it as an animation.
    - **Length law:** derived duration ≤ 5:00; if over, split (see Plan).
    If ANY item fails: **rewrite the beat sheet — never annotate around a
    failure** — then re-run this audit (and refresh FACTCHECK if the rewrite
@@ -224,12 +253,20 @@ checks fail independently. Also run it yourself at the Scenes step (no isolated
 copy needed): `python3 tmp/qc-tooling/wcag_margin_check.py <REEL>/vox_scenes.py`
 - **W1 GOLD-as-text = instant ERROR.** Gold is the highlighter fill, never a
   text color (1.26:1 on cream). Titles included — use INK.
-- **W2 WCAG contrast:** text vs ground below 3.0:1 = ERROR; below 4.5:1 = WARN
-  (text ≥36pt passes at 3.0). Chip glyph-vs-accent contrast is checked too.
+- **W2 WCAG contrast:** text vs its background below 3.0:1 = ERROR; below 4.5:1
+  = WARN (text ≥36pt passes at 3.0). Background is the cream ground OR, when a
+  text is `move_to`'d onto a filled shape, that shape's fill composited over
+  cream — so **yellow-on-yellow-on-beige and any low-contrast text-on-fill are
+  caught**, not just gold text. Chip glyph-vs-accent contrast is checked too.
 - **W3 margins:** bbox past the frame (±7.1/±4.0) = ERROR; past the safe area
   (±6.3/±3.4) = WARN.
 - **W4 text-on-text:** overlapping text bboxes (>25% of the smaller = ERROR).
 - **W5 text-on-line** and **W6 white text with no accent box** = WARN.
+- **W7 chapter-on-slide = instant ERROR.** Any "Chapter N" / book-title
+  citation in an on-screen string (Text copy OR a `_quote_scene` attribution)
+  fails — name the TOPIC kicker, never the chapter. The reel is the intuition
+  half; the source cite lives in `metadata.source` / FACTCHECK / the upload
+  description, never on the slate.
 - Honesty clause: it resolves explicit coordinates (`move_to`, `to_edge`,
   `shift`, `.scale()` chains, `np.array`); items placed from loop variables or
   `next_to` are geometry-unresolved (color rules still apply) — Gate B remains
@@ -294,6 +331,22 @@ copy needed): `python3 tmp/qc-tooling/wcag_margin_check.py <REEL>/vox_scenes.py`
   chapter number. Put the topic in `metadata.topic` and use it for the B01
   eyebrow. Book + chapter stay in `metadata.source`, FACTCHECK, and the
   upload description.
+- **Anchor, not transcript (modality law):** the words on screen are never
+  the words being spoken. A card shows a question or a keyword; the voice
+  says the sentence. If a beat's card copy and its `narration` are the same
+  paragraph, the scene is wrong — shorten the card to its anchor phrase and
+  let narration carry the meaning. (Enforced at GATE P; see the pedagogy
+  checklist's anchor-not-transcript law.)
+- **Simulate the process, don't depict it (the simulation-first law):** if the
+  mechanism IS something that unfolds in time — a wavefunction spreading, a
+  distribution shifting, a value propagating down a chain, a queue draining,
+  two rates diverging — ANIMATE that process AS the scene. A static diagram or
+  a line of text describing the process is the fallback of last resort, used
+  only when the process genuinely cannot be simulated at this budget. The one
+  moving thing that makes the concept click is worth building a template for
+  and vetting into the bench. "Show the thing happening" always beats "show a
+  labelled picture of the thing." Unlabelled static boxes are the worst of
+  both — neither a simulation nor a legible diagram.
 
 ---
 

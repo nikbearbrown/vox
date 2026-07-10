@@ -27,18 +27,37 @@ try:
 except NameError:
     ITALIC = "ITALIC"
 
-GROUND = "#F3EBDD"; INK = "#2F2A26"
-# data accents: TEAL = good/kept/true, CRIMSON = bad/lost/broken (see books/vox/DESIGN.md)
-CRIMSON = "#BF3339"; TEAL = "#1F6F5C"
-GOLD = "#F5D061"; SLATE = "#3E5559"   # GOLD = highlighter ONLY (never text); SLATE = entity cards/structure
+import os as _os
+# ---- palette registry (DESIGN.md). Same SIX role keys, different values; select with
+#      env VOX_PALETTE=teardown|newsprint|neu|medhavy|humanitarians. Default = teardown
+#      (NikBearBrown house look: minimalist white / ink / RED-ONLY; good = plain ink,
+#      carried by KEPT/LOST label + position — never a second hue).
+_PALETTES = {
+    #                 GROUND      INK(text)  TEAL(good)  CRIMSON(bad) SLATE(struct) GOLD(highlight) HAIRLINE
+    "teardown":      ("#FFFFFF", "#2A1A0E", "#2A1A0E", "#C8102E", "#545454", "#F6D8DC", "#D4D4D4"),
+    "newsprint":     ("#F3EBDD", "#2F2A26", "#1F6F5C", "#BF3339", "#3E5559", "#F5D061", "#D4D4D4"),
+    "neu":           ("#FFFFFF", "#000000", "#000000", "#545454", "#545454", "#A4804A", "#E3E3E3"),
+    "medhavy":       ("#F0EAD6", "#000000", "#009E73", "#D55E00", "#4D4D4D", "#F0E442", "#D4D4D4"),
+    "humanitarians": ("#F3EBDD", "#2F2A26", "#1F4E5F", "#E4572E", "#29335C", "#F3A712", "#D4D4D4"),
+}
+_PAL = _os.environ.get("VOX_PALETTE", "teardown")
+GROUND, INK, TEAL, CRIMSON, SLATE, GOLD, HAIRLINE = _PALETTES.get(_PAL, _PALETTES["teardown"])
+# TEAL = good/kept/true, CRIMSON = bad/lost/broken (see books/vox/DESIGN.md). In teardown/neu
+# TEAL == INK (good is plain ink; the KEPT/LOST label + side carry it — red is the one accent).
+# GOLD = highlighter fill ONLY (never text); in teardown it is a wash of the one accent. SLATE = structure.
+NEU_RED = "#C8102E"   # NEU brand/emphasis/primary-series only — never "state" (Northeastern brand law)
 # retired hues, aliased so legacy scenes + the electoral-college fixture don't crash:
-NAVY = TEAL          # navy dropped -> renders teal now
+NAVY = TEAL          # navy dropped -> renders the good/kept accent now
 BLUE = SLATE         # dusty-blue dropped -> slate
 TERRA = CRIMSON      # terracotta dropped -> crimson
-# type system — fonts live in books/vox/fonts/, resolved by family name via fontconfig
-DISPLAY = "Montserrat"    # titles / big display lines / LabelChip tracked caps
-SANS    = "Inter"         # reserved — no live component role (chips + annotation labels moved to DISPLAY/SERIF, 2026-07)
-SERIF   = "EB Garamond"   # editorial serif: quote cards, attributions, entity cards, SerifLabel (italic)
+# type system — fonts live in books/vox/fonts/, resolved by family name via fontconfig.
+# NEU overrides ALL type to Lato (Northeastern brand law); every other palette keeps the house type.
+if _PAL == "neu":
+    DISPLAY = SANS = SERIF = "Lato"   # NEU: regular-weight headings, sentence case (brand law)
+else:
+    DISPLAY = "Montserrat"    # titles / big display lines / LabelChip tracked caps
+    SANS    = "Inter"         # reserved — no live component role (chips + annotation labels moved to DISPLAY/SERIF, 2026-07)
+    SERIF   = "EB Garamond"   # editorial serif: quote cards, attributions, entity cards, SerifLabel (italic)
 
 config.background_color = GROUND
 
@@ -418,6 +437,11 @@ def _quote_scene(scene, quote, attribution, credit, hi_words, total,
     lines = _wrap(quote, 46)
     q = Paragraph(*lines, font=SERIF, color=INK,
                   font_size=qsize, alignment="center", line_spacing=0.9)
+    # fit long quotes to the frame: the wrap alone can exceed the safe area at
+    # this font size (short quotes fit; a full-sentence question does not)
+    f = max(q.width / 12.4, q.height / 4.6, 1.0)
+    if f > 1.0:
+        q.scale(1.0 / f)
     q.move_to(UP * 0.6)
     att = Text(attribution, font=SERIF, color=INK, font_size=28)
     att.next_to(q, DOWN, buff=0.7)

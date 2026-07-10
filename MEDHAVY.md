@@ -40,3 +40,62 @@ limits; and — uniquely to MEDHAVY — a license to nudge the viewer from watch
 ---
 *One of three audience charters. See `AUDIENCES.md` for the full matrix and `voices/`
 for the register definitions.*
+
+---
+
+## Video register rules
+
+These rules apply to every video built in the Medhavy register. They are
+enforced at build time by the visual + fact gates.
+
+### Bookends (required on every Medhavy reel)
+
+**FIRST beat — Medhavy intro** (MedhavyOpen, Onda terminal style)
+```
+Screen lines:
+  Medhavy AI
+  Also known as Medhavi
+  मेधावी (Medhavy): From Sanskrit, meaning
+  "intelligent" or "intellectually brilliant"
+  — the perfect name for our AI-powered
+    intelligent learning systems.
+
+tts: "med dahvy A-I. From Sanskrit — meaning intelligent, or intellectually
+     brilliant. The perfect name for our A-I-powered intelligent learning systems."
+```
+
+**LAST beat — Medhavy outro** (MedhavyOutro card)
+```
+Screen: "Medhavy — AI-powered intelligent learning systems
+         YouTube @MedhavyAI    medhavy.com"
+
+tts: "med dahvy. A-I-powered intelligent learning systems.
+     On YouTube, at med dahvy A-I. med dahvy dot com."
+```
+
+### Pronunciation split (all beats, permanent rule)
+| In | Write |
+|----|-------|
+| `narration_text` / tts | `med dahvy` · `med dahvy dot com` · `at med dahvy A-I` |
+| on-screen text / props | `Medhavy` · `medhavy.com` · `@MedhavyAI` |
+
+Never feed ElevenLabs the literal spelling "Medhavy" — it renders as "med-HAH-vee"
+only via the alias `med dahvy` (open-ah, like Davos: meh-DAH-vee). Once the
+pronunciation dictionary (`vox/PRONUNCIATION.md`) is live and wired into the audio
+step, beats may use "Medhavy" directly and the dict handles the rewrite.
+
+### Pipeline rules
+- **Always run the visual + fact gate** — never skip.
+- **16:9** = the full reel: Medhavy intro → all content beats → Medhavy outro.
+- **9:16 Short** = ONE example only (strongest/most dramatic single segment), run
+  through the 16:9→9:16 reformatter (true portrait reflow, not a center-crop),
+  wrapped in Medhavy intro + Medhavy outro. **Hard gate: strictly < 3:00**
+  (target ≤ 2:55). If ≥ 3:00, fail and trim.
+
+### Remotion compositions (established)
+| Composition | Aspect | Use |
+|---|---|---|
+| `MedhavyOpen` / `MedhavyOpen916` | 16:9 / 9:16 | Brand intro beat |
+| `MedhavyTerminalAsk` / `MedhavyTerminalAsk916` | 16:9 / 9:16 | CLI prompt beat |
+| `MedhavyCodeBlock` / `MedhavyCodeBlock916` | 16:9 / 9:16 | Code display beat |
+| `MedhavyOutro` / `MedhavyOutro916` | 16:9 / 9:16 | Brand outro beat |

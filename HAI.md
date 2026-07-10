@@ -39,3 +39,26 @@ fast. The whole audience is organized around *use / don't-use / irreducibly huma
 ---
 *One of three audience charters. See `AUDIENCES.md` for the full matrix and `voices/`
 for the register definitions.*
+
+---
+
+## Outro card (final beat, every Humanitarians AI video)
+
+The outro is always the **LAST beat**.
+
+**Pattern:** big name → tagline → divider → handle · url
+
+```
+Screen: "Humanitarians AI
+         We teach what AI can and cannot do.
+         ——————————————————————————————————
+         @humanitariansai    humanitarians.ai"
+
+tts: "Humanitarians A-I. We teach what A-I can and cannot do.
+     On YouTube, at humanitarians A-I. humanitarians dot A-I."
+```
+
+**Palette:** HAI muted editorial (petrol teal / burnt orange / cream — see `HAI.md`).
+**Voice ID:** `ELEVENLABS_VOICE_HUMANITARIANS` (see `vox/.env`).
+
+For the register-to-outro lookup, see `vox/REGISTERS.md`.

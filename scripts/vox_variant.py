@@ -13,7 +13,7 @@ register, the signature tangent, the audience outro — is done by Claude Code, 
 the hai / medhavy SKILL. No API calls, no spend.
 
 Usage:
-  python3 scripts/vox_variant.py <REEL> {hai|medhavy}
+  python3 scripts/vox_variant.py <REEL> {neu|hai|medhavy}
 """
 import argparse, json, os, re, sys
 from pathlib import Path
@@ -21,6 +21,10 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parents[1]          # vox/
 
 AUD = {
+    "neu": {"suffix": "neu", "audience": "NEU", "voice_env": "ELEVENLABS_VOICE_NEU",
+            "voice_fallback_env": "ELEVENLABS_VOICE_NIKBEARBROWN",
+            "palette": "neu", "register": "Lecture", "charter": "NEU.md",
+            "author_section": "Northeastern"},
     "hai": {"suffix": "hai", "audience": "HAI", "voice_env": "ELEVENLABS_VOICE_HUMANITARIANS",
             "palette": "humanitarians", "register": "Pragmatist", "charter": "HAI.md",
             "author_section": "Humanitarians AI"},
@@ -60,6 +64,14 @@ def main():
     sheet = json.loads(src.read_text())
     meta = sheet.setdefault("metadata", {})
     voice_id = read_env_voice(cfg["voice_env"])
+    voice_note = "set"
+    if not voice_id and cfg.get("voice_fallback_env"):
+        # NEU: no per-prof voice set -> fall back to Bear's default voice (AUDIENCES.md).
+        voice_id = read_env_voice(cfg["voice_fallback_env"])
+        if voice_id:
+            voice_note = f"fallback→{cfg['voice_fallback_env']}"
+    if not voice_id:
+        voice_note = "MISSING (.env)"
 
     # audience metadata
     meta["audience"] = cfg["audience"]
@@ -84,7 +96,7 @@ def main():
 
     out.write_text(json.dumps(sheet, indent=1, ensure_ascii=False))
     print(f"[variant] wrote {out.name}  audience={cfg['audience']}  register={cfg['register']}  "
-          f"palette={cfg['palette']}  voice_id={'set' if voice_id else 'MISSING (.env)'}")
+          f"palette={cfg['palette']}  voice_id={voice_note}")
     print(f"[variant] {len(sheet.get('beats', []))} beats to rewrite in {cfg['register']} — "
           f"next: Claude Code follows the {a.audience} SKILL to rewrite narration + outro + tangent")
 

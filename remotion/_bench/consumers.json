@@ -1,4 +1,80 @@
 {
+ "BrutalistCommentCTA": [
+  {
+   "beat": "B99",
+   "video": "vox-apoptosis-resistance"
+  }
+ ],
+ "BrutalistTerminalOpen": [
+  {
+   "beat": "B00",
+   "video": "vox-apoptosis-resistance"
+  }
+ ],
+ "MedhavyCodeBlock": [
+  {
+   "beat": "B02",
+   "video": "medhavy-ch1-classical-sims"
+  },
+  {
+   "beat": "B05",
+   "video": "medhavy-ch1-classical-sims"
+  },
+  {
+   "beat": "B08",
+   "video": "medhavy-ch1-classical-sims"
+  },
+  {
+   "beat": "B06",
+   "video": "medhavy-ch1-classical-sims"
+  },
+  {
+   "beat": "B10",
+   "video": "medhavy-ch1-classical-sims"
+  }
+ ],
+ "MedhavyOpen": [
+  {
+   "beat": "B00",
+   "video": "medhavy-ch1-classical-sims"
+  }
+ ],
+ "MedhavyOutro": [
+  {
+   "beat": "B13",
+   "video": "medhavy-ch1-classical-sims"
+  }
+ ],
+ "MedhavyTerminalAsk": [
+  {
+   "beat": "B01",
+   "video": "medhavy-ch1-classical-sims"
+  },
+  {
+   "beat": "B04",
+   "video": "medhavy-ch1-classical-sims"
+  },
+  {
+   "beat": "B07",
+   "video": "medhavy-ch1-classical-sims"
+  },
+  {
+   "beat": "B05",
+   "video": "medhavy-ch1-classical-sims"
+  },
+  {
+   "beat": "B08",
+   "video": "medhavy-ch1-classical-sims"
+  },
+  {
+   "beat": "B09",
+   "video": "medhavy-ch1-classical-sims"
+  },
+  {
+   "beat": "B12",
+   "video": "medhavy-ch1-classical-sims"
+  }
+ ],
  "OutroCTA": [
   {
    "beat": "B14",

@@ -34,3 +34,27 @@ selling the thing; be honest about the limits. Judge the tools — don't survey 
 ---
 *One of three audience charters. The matrix that ties voice + register + palette +
 tangent together is `AUDIENCES.md`; the full register definitions live in `voices/`.*
+
+---
+
+## Outro card (final beat, every NikBearBrown / default video)
+
+The outro is always the **LAST beat**. For a Brutalist video with an Onda
+CodeBlock comment CTA, the CTA beat comes immediately before the outro.
+
+**Pattern:** big name → tagline → divider → handle · url
+
+```
+Screen: "Nik Bear Brown
+         Brutalist + Educational AI
+         ——————————————————————————
+         @NikBearBrown    nikbearbrown.com"
+
+tts: "Nik Bear Brown. Brutalist and Educational A-I.
+     On YouTube, at Nik Bear Brown. Nik Bear Brown dot com."
+```
+
+**Palette:** teardown (`#FFFFFF` ground / `#2A1A0E` ink / red `#C8102E` accent).
+**Voice ID:** `TyW6NH39JcFb5M3xdIIk` (`ELEVENLABS_VOICE_NIKBEARBROWN`).
+
+For the register-to-outro lookup, see `vox/REGISTERS.md`.
